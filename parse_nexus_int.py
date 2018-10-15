@@ -5,7 +5,7 @@ import os
 import textfsm as textfsm
 
 # Load the input file to a variable
-input_file = open("/home/odl/test123/nexus_interface")
+input_file = open("/home/odl/test123/nexus_int")
 raw_text_data = input_file.read()
 input_file.close()
 
