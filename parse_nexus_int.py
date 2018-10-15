@@ -19,7 +19,7 @@ fsm_results = re_table.ParseText(raw_text_data)
 # the results are written to a CSV file
 datestring = datetime.strftime(datetime.now(),'%Y%m%d%H%M%S')
 os.chdir(r'/home/odl/test123/')
-outfile_name = open("nexus_int"+datestring+".csv", "w+")
+outfile_name = open("nexus_show_int.csv", "w+")
 outfile = outfile_name
 
 # Display result as CSV and write it to the output file
