@@ -1,5 +1,6 @@
 Value Filldown hostname (\S+)
-Value Required INTERFACE (\S+)
+Value Required INTERFACE (.*)
+Value vrf (.*)
 Value DESCRIPTION (.*)
 Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
 
@@ -9,5 +10,6 @@ Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
 Start
   ^hostname\s+${hostname}.*
   ^interface ${INTERFACE} 
+  ^\s+vrf member ${vrf} 
   ^\s+description ${DESCRIPTION}
   ^\s+ip address ${IP_ADDRESS}  -> Record
