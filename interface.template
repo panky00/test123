@@ -8,6 +8,6 @@ Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
 
 Start
   ^hostname\s+${hostname}.*
-  ^interface Vlan ${INTERFACE} 
+  ^interface ${INTERFACE} 
   ^\s+description ${DESCRIPTION}
   ^\s+ip address ${IP_ADDRESS}  -> Record
