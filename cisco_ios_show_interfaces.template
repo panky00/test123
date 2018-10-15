@@ -15,7 +15,7 @@ Value DELAY (\d+\s+\w+)
 Value ENCAPSULATION (\w+)
 
 Start
-  ^\s+hostname ${hostname}
+  ^hostname\s+${hostname}.*
   ^${INTERFACE}\s+is\s+${LINK_STATUS},\sline\sprotocol\sis\s${ADMIN_STATE}$$
   ^${INTERFACE}\s+is\s+${LINK_STATUS}$$
   ^admin\s+state\s+is\s+${ADMIN_STATE},
