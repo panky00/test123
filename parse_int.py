@@ -4,20 +4,20 @@ import os
 import textfsm as textfsm
 
 # Load the input file to a variable
-input_file = open("/home/x171610/run_interface")
+input_file = open("/home/odl/test123/run_interface")
 raw_text_data = input_file.read()
 input_file.close()
 
 # Run the text through the FSM. 
 # The argument 'template' is a file handle and 'raw_text_data' is a 
 # string with the content from the show_inventory.txt file
-template = open("/home/x171610/interface.template")
+template = open("/home/odl/test123/interface.template")
 re_table = textfsm.TextFSM(template)
 fsm_results = re_table.ParseText(raw_text_data)
 
 # the results are written to a CSV file
 datestring = datetime.strftime(datetime.now(),'%Y-%m-%d-%H-%M')
-os.chdir(r'/home/x171610/')
+os.chdir(r'/home/odl/test123/')
 outfile_name = open("nexus-interface"+datestring+".csv", "w+")
 outfile = outfile_name
 
