@@ -3,9 +3,7 @@ Value Required INTERFACE  (\S+)
 Value DESCRIPTION (.*)
 Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
 Value MASK (\d+)
-Value DHCP (\d+\.\d+\.\d+\.\d+)
-Value VRRP (\d+)
-Value VRRP_GATEWAY (\d+\.\d+\.\d+\.\d+)
+
 
 
 Start
