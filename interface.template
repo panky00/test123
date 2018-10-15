@@ -1,15 +1,18 @@
 Value Filldown hostname (\S+)
-Value Required INTERFACE (.*)
-Value vrf (.*)
+Value Required INTERFACE (\d+)
 Value DESCRIPTION (.*)
-Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+\/\d+)
-
-
+Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
+Value MASK (\d+)
+Value DHCP (\d+\.\d+\.\d+\.\d+)
+Value Required VRRP (\d+)
+Value VRRP_GATEWAY (\d+\.\d+\.\d+\.\d+)
 
 
 Start
   ^hostname\s+${hostname}.*
-  ^interface ${INTERFACE} 
-  ^\s+vrf member ${vrf} 
+  ^interface Vlan ${INTERFACE} 
   ^\s+description ${DESCRIPTION}
-  ^\s+ip address ${IP_ADDRESS}  -> Record
+  ^\s+ip address ${IP_ADDRESS}\/${MASK}
+  ^\s+ip dhcp relay address ${DHCP}
+  ^\s+vrrp ${VRRP}
+  ^\s+address ${VRRP_GATEWAY}  -> Record
