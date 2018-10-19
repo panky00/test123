@@ -1,0 +1,419 @@
+
+
+Fri Oct 19 08:54:29.867 MET
+Building configuration...
+hostname TIG-D7
+
+Fri Oct 19 08:54:32.878 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/12         up          up          reserved_TIGR6-CLOUD-CFD-vdc2-A2-eth1/48
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         up          up          RVP_SSA_UAT-To-RIX_IPS
+Te0/0/1/15         up          up          RVP_SSA_UAT-To-RIX_IPS
+
+
+Fri Oct 19 08:54:41.094 MET
+Building configuration...
+hostname TIG-D02
+
+Fri Oct 19 08:54:42.498 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Gi0/0/1/3          up          up          NETSCOUT_CAPTURE_INCIDENT_ORLEANS
+
+
+Fri Oct 19 08:54:50.335 MET
+Building configuration...
+hostname TIG-D4
+
+Fri Oct 19 08:54:53.939 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/12         up          up          reserved_TIGR6-CLOUD-CFD-vdc2-A1-eth1/48
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         down        down
+Te0/0/1/15         down        down
+Gi0/6/0/2          down        down        FED_PIX_SAN-DEF-C2_S1P3_1G_COMPLETEL_SOCIET_L2L_6A8E
+Gi0/6/0/3          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P9_1G
+Gi0/6/0/4          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P10_1G
+Gi0/6/0/5          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P11_1G
+Gi0/6/0/6          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P12_1G
+Gi0/7/1/7          up          up
+
+
+Fri Oct 19 08:55:02.370 MET
+Building configuration...
+hostname TIG-D5
+
+Fri Oct 19 08:55:04.378 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE130              up          up
+BE133              up          up
+Gi0/6/1/2          up          up          FED_RVP_ITEC_DELUGE_Gi5/1_1G
+Gi0/7/0/0          up          up          FED_RVP_ITEC_FALCON_Gi2/1_1G
+
+
+Fri Oct 19 08:55:12.412 MET
+Building configuration...
+hostname TIG-D6
+
+Fri Oct 19 08:55:14.600 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE10               up          up          FED_BUTANE_PC1
+BE15               up          up          FED_IPT-TIGR4K-01_PC3
+BE16               up          up          FED_IPT-TIGR4K-02_PC4
+BE30               up          up          FED_ MCLUSTER-TIGR5K-03_Po30_2G
+BE131              up          up
+BE134              up          up
+Gi0/7/0/0          down        down
+Gi0/7/0/1          up          up          FED_RVP_ITEC_FINCH_Gi2/2_1G
+
+
+Fri Oct 19 08:55:22.776 MET
+Building configuration...
+hostname SC2-A1
+
+Fri Oct 19 08:55:26.179 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/1/11         up          up          FED_SC2ASVRTRPCMS-P1_S1P1_10G
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         up          up          RIX-To-RVP-SSA-UAT_IPS
+Te0/0/1/15         up          up          IPS
+Gi0/6/0/4          up          up
+Gi0/6/0/19         up          up
+
+
+Fri Oct 19 08:55:34.477 MET
+Building configuration...
+hostname SC2-A2
+
+Fri Oct 19 08:55:37.489 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+
+
+Fri Oct 19 08:55:45.734 MET
+Building configuration...
+hostname DC2-B1
+
+Fri Oct 19 08:55:49.136 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/10         down        down
+Te0/0/1/12         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/14         up          up          RVP_SSA_UAT_to_RIX_IPS
+Te0/0/1/15         up          up          RVP_SSA_UAT_to_RIX_IPS
+Hu0/4/0/2          up          up          FED_ASU-SPN-DC2-COM-1001_HundredGig_1/64_100G
+Hu0/4/0/3          up          up          FED_ASU-SPN-DC2-2B1-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DC2-2B1-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DC2-2B1-0201_HundredGig_1/1_100G
+Hu0/4/0/6          down        down
+Gi0/7/0/8          up          up
+
+
+Fri Oct 19 08:55:57.360 MET
+Building configuration...
+hostname DC2-B2
+
+Fri Oct 19 08:56:00.169 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/1/12         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD_to_RIX_IPS
+Hu0/4/0/3          up          up          FED_ASU-SPN-DC2-2B1-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DC2-2B1-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DC2-2B1-0201_HundredGig_1/1_100G
+Hu0/5/0/0          up          up          FED_DC2-B02_HundredGig_0/4/0/5_100G
+
+
+Fri Oct 19 08:56:08.414 MET
+Building configuration...
+hostname DEF-A2
+
+Fri Oct 19 08:56:11.024 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/13         up          up          Reserved_DEF-G12_Te3/3
+Gi0/6/0/2          up          up          FED_DEF-C30_S5P2_T_1G
+Gi0/7/0/4          down        down        PIX_RVP_ITEC_TOIP-DEF-A51_1082_1G
+Gi0/7/0/5          down        down        PIX_RVP_ITEC_TOIP-DEF-A50_214_1G
+
+
+Fri Oct 19 08:56:19.377 MET
+Building configuration...
+hostname DEF-B1
+
+Fri Oct 19 08:56:21.174 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/8          down        down
+Te0/0/0/12         down        down
+Gi0/0/1/13         down        down
+Gi0/0/1/19         down        down
+
+
+Fri Oct 19 08:56:29.079 MET
+Building configuration...
+hostname DEF-C2
+
+Fri Oct 19 08:56:31.684 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/6          up          up
+Gi0/7/0/5          down        down        PIX_RVP_ITEC_TOIP-DEF-C50_217_1G
+Gi0/7/0/6          down        down        PIX_RVP_ITEC_TOIP-DEF-C51_219_1G
+
+
+Fri Oct 19 08:56:39.978 MET
+Building configuration...
+hostname DEF-B2
+
+Fri Oct 19 08:56:41.776 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:56:49.522 MET
+Building configuration...
+hostname TIG-D4
+
+Fri Oct 19 08:56:53.128 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/12         up          up          reserved_TIGR6-CLOUD-CFD-vdc2-A1-eth1/48
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         down        down
+Te0/0/1/15         down        down
+Gi0/6/0/2          down        down        FED_PIX_SAN-DEF-C2_S1P3_1G_COMPLETEL_SOCIET_L2L_6A8E
+Gi0/6/0/3          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P9_1G
+Gi0/6/0/4          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P10_1G
+Gi0/6/0/5          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P11_1G
+Gi0/6/0/6          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P12_1G
+Gi0/7/1/7          up          up
+
+
+Fri Oct 19 08:57:01.581 MET
+Building configuration...
+hostname DC2-B02
+
+Fri Oct 19 08:57:02.982 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Hu0/4/0/0          up          up          FED_DUB-B01_HundredGig_0/4/0/0_100G
+Hu0/4/0/5          up          up          FED_DC2-B2_HundredGig_0/5/0/0_100G
+
+
+Fri Oct 19 08:57:10.929 MET
+Building configuration...
+hostname SC2-A02
+
+Fri Oct 19 08:57:12.526 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:57:20.225 MET
+Building configuration...
+hostname SC2-A01
+
+Fri Oct 19 08:57:21.623 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:57:29.444 MET
+Building configuration...
+hostname DUB-B01
+
+Fri Oct 19 08:57:30.834 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:57:38.693 MET
+Building configuration...
+hostname DUB-B1
+
+Fri Oct 19 08:57:40.301 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Hu0/4/0/2          up          up          FED_ASU-SPN-DB2-COM-1001_HundredGig_1/64_100G
+Hu0/4/0/3          up          up          FED_ASU-SPN-DB2-COM-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DB2-COM-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DB2-COM-0201_HundredGig_1/1_100G
+
+
+Fri Oct 19 08:57:48.124 MET
+Building configuration...
+hostname DUB-B2
+
+Fri Oct 19 08:57:49.524 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Hu0/4/0/2          up          up          FED_ASU-SPN-DB2-COM-1001_HundredGig_1/64_100G
+Hu0/4/0/3          up          up          FED_ASU-SPN-DB2-COM-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DB2-COM-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DB2-COM-0201_HundredGig_1/1_100G
+
+
+Fri Oct 19 01:56:33.953 MET
+Building configuration...
+hostname PAN-D1
+
+Fri Oct 19 01:56:35.750 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:58:07.376 MET
+Building configuration...
+hostname PAN-D01
+
+Fri Oct 19 08:58:08.773 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:58:16.718 MET
+Building configuration...
+hostname PAN-D2
+
+Fri Oct 19 08:58:18.520 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:58:26.431 MET
+Building configuration...
+hostname PAN-D02
+
+Fri Oct 19 08:58:27.835 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:58:35.162 MEST
+Building configuration...
+hostname ORI-A0
+
+Fri Oct 19 08:58:36.367 MEST
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:58:44.102 MET
+Building configuration...
+hostname ORI-A01
+
+Fri Oct 19 08:58:45.516 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:58:53.316 MET
+Building configuration...
+hostname ORI-P01
+
+Fri Oct 19 08:58:54.724 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+
+Fri Oct 19 08:59:01.256 MEST
+Building configuration...
+hostname TIG-D0
+
+Fri Oct 19 08:59:02.457 MEST
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+
+hostname TIG-D01
+Interface                      Status         Protocol Description
+hostname DEF-B01
+Interface                      Status         Protocol Description
+hostname DEF-A01
+Interface                      Status         Protocol Description
+hostname DC2-B01
+Interface                      Status         Protocol Description
+hostname DC2-B0
+Interface                      Status         Protocol Description
+
+hostname SC2-A0
+Interface                      Status         Protocol Description
+hostname DUN-T1
+Interface                      Status         Protocol Description
+Gi8/1                          up             up
+hostname DUN-U1
+Interface                      Status         Protocol Description
+Gi8/1                          up             up
+hostname NAN-A1
+Interface                      Status         Protocol Description
+hostname NAN-A2
+Interface                      Status         Protocol Description
+hostname ORI-A1
+Interface                      Status         Protocol Description
+hostname ORI-A2
+Interface                      Status         Protocol Description
+
+Fri Oct 19 09:00:53.097 MET
+Building configuration...
+hostname ORI-C1
+
+                                                         ^
+% Invalid input detected at '^' marker.
+hostname ORI-C2
+Interface                      Status         Protocol Description
+Gi1/1                          up             up
+hostname ORL-A1
+Interface                      Status         Protocol Description
+hostname ORL-C1
+Interface                      Status         Protocol Description
+hostname SEC-B1
+Interface                      Status         Protocol Description
+hostname SEC-B2
+Interface                      Status         Protocol Description
+hostname VDF-B2
+Interface                      Status         Protocol Description
+Gi8/2                          up             up       FED_MON-A10_S0P1_100M
+hostname VDF-J2
+Interface                      Status         Protocol Description
+bash-3.2$
