@@ -1,0 +1,9 @@
+Value Filldown hostname (\S+)
+Value INTERFACE (.*?)
+Value Status (up|down)
+Value Protocol (up|down)
+Value Desc (.*)
+
+Start
+  ^hostname\s+${hostname}.*
+  ^${INTERFACE}\s+${Status}\s+${Protocol}\s+${Desc}$$ -> Record
