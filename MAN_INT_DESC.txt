@@ -1,0 +1,1512 @@
+
+Fri Nov 16 15:53:57.895 MET
+Building configuration...
+hostname TIG-D7
+
+Fri Nov 16 15:54:00.704 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE2                up          up          <*>P1|20G|-->TIG-D4Bundle-Ether 2
+BE4                up          up          <*>BBN_TIG-D10_Po4_2G
+BE5                up          up          <*>FED_TIGR6-CLOUD-CFD-vdc2-A2_Po5_10G
+BE6                up          up          <*> FW_ PRDSFW01_Inside_BE7_2G
+BE7                up          up          <*> FW_ PRDSFW01_Outside_BE6_2G
+BE33               up          up          <*>P1|20G|-->TIG-D01Bundle-Ether 3
+BE59               up          up          <> TIGR7-OTV-INT-01-vdc2_Po301
+Te0/0/0/0          up          up          <*>P1|10G|-->TIG-D01_Te0/0/0/10
+Te0/0/0/1          up          up          <*>P1|10G|-->TIG-D01_Te0/0/0/9
+Te0/0/0/2          up          up          <*>FED_TIGR7RTRPCMS-H1_S1P1_10G
+Te0/0/0/4          up          up          <*> FW_PRDSFW01_Inside_Port23
+Te0/0/0/5          up          up          <*> FW_PRDSFW01_Outside_Port24
+Te0/0/0/6          up          up          <*> FED_TIGR7-ODIN-CFD-vdc2-Eth_2/2_10G
+Te0/0/0/7          up          up          <*> RIX_TigRtrPciDss-h2_S1P4
+Te0/0/0/8          up          up          <*> FED_TIGR6-CLOUD-CFD-vdc2-A2_S1P5_PO5
+Te0/0/0/9          up          up          <*> RVP_L2DCI_TIGR6-CLOUD-OTV-vdc3-A2_S2P9
+Te0/0/0/10         up          up          <*> RIX_TigRtrPciDss-p2_S1P52
+Te0/0/0/12         up          up          <*> FED_TIGR6-CLOUD-CFD-vdc2-A2_S1P48_PO5
+Te0/0/0/18         up          up          <> TIGR7-OTV-INT-01-vdc2_Eth1/48
+Te0/0/1/0          up          up          CIP_RIX->HNSA-ZONES_HNSATIGFW11_Port1
+Te0/0/1/1          up          up          <*>BBN_TIGCFDR4-01_S2P8_VVXXXXXX_10G
+Te0/0/1/2          up          up          CIP_NSA-ZONES->RIX_PNSATIGFW11_Port2
+Te0/0/1/3          up          up          CIP_RIX->NSA-ZONES_PNSATIGFW11_Port1
+Te0/0/1/4          up          up          HNSA-ZONES_HNSATIGFW12->RIX-ZONES_HNSATIGFW11_Port2
+Te0/0/1/5          up          up          <*> BBN_TIGR7-BIP-CFD-A2_Eth1/46
+Te0/0/1/7          up          up          <*> BBN_TIGR7-BIP-CFD-A2_Eth1/47
+Te0/0/1/8          up          up          <*> <VRF>_TIGR7-SANA-CFD-A2_eth1/12
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         up          up          RVP_SSA_UAT-To-RIX_IPS
+Te0/0/1/15         up          up          RVP_SSA_UAT-To-RIX_IPS
+Te0/0/1/18         up          up          <> TIGR7-OTV-INT-01-vdc2_Eth6/48
+Te0/1/0/0          up          up          <*>P1|10G|-->TIG-D4Ten0/1/0/0
+Te0/1/0/1          up          up          <*>P1|10G|-->TIG-D4Ten0/1/0/1
+Te0/1/0/5          up          up          <*>FED_RIX_TIGR4-WRT-N5K-P1_S2P0
+Gi0/6/0/1          up          up          <*> FED_TIG-D50_S0P2_1G
+Gi0/6/0/2          up          up          <*> FED_RIX_BerRtrSGEBS-p1_S0P2_1G_JEV/RUM/LE-21626
+Gi0/6/1/0          up          up          <*> FED_TIG-D10_S1P20_1G
+Gi0/6/1/1          up          up          <*> FED_TIG-D10_S1P21_1G
+Gi0/6/1/2          up          up          <*> FED_RIX_TigRtrIntRixR4-p1_G2/0/0
+Gi0/6/1/3          up          up          <*> TIGR6K-VIAP-RTR-A1_Eth1/1
+Gi0/6/1/4          up          up          <> TIG-T11 /// Interco CE- PE
+Gi0/7/0/0          up          up          <*> FW_PASSUFW11_Port17
+Gi0/7/0/1          up          up          <*> FW_PASSUFW11_Port25
+Gi0/7/0/2          up          up          <*>FED_TIGR7-ASSU-N7K-A1_S3P1
+Gi0/7/1/6          up          up          <*> FW_PASSUFW11_Port18
+Gi0/7/1/7          up          up          <*> FW_PASSUFW11_Port19
+Gi0/7/1/8          up          up          <*> FW_PASSUFW11_Port26
+Gi0/7/1/9          up          up          <*> FW_PASSUFW11_Port27
+Gi0/7/1/10         up          up          <*> FW_ PRDSFW01_Inside_Port3_PO7
+Gi0/7/1/11         up          up          <*> FW_ PRDSFW01_Inside_Port4_PO7
+Gi0/7/1/12         up          up          <*> FW_ PRDSFW01_Outside_Port5_PO6
+Gi0/7/1/13         up          up          <*> FW_ PRDSFW01_Outside_Port6_PO6
+
+
+Fri Nov 16 15:54:08.918 MET
+Building configuration...
+hostname TIG-D02
+
+Fri Nov 16 15:54:10.315 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->TIG-D01-BE1
+BE3                up          up          <*> P1|20G|-->TIG-D6_BE3
+BE4                up          up          <*> P1|20G|-->DC2-B02-BE4
+BE5                up          up          <*>  P1|20G|-->ORI-P01Port-channel5
+BE10               up          up          <*> P1|20G|-->SC2-A02-BE10
+BE33               up          up          <*>BBN_TIG-D4_Po33_20G
+Te0/0/0/0          up          up          <*> P1|10G|-->TIG-D01_Te0/0/0/0
+Te0/0/0/1          up          up          <*> P1|10G|-->TIG-D01_Te0/0/0/1
+Te0/0/0/2          up          up          <*> P1|10G|OBS|VV737201|-->ORI-P01Ten1/2
+Te0/0/0/3          up          up          <*> P1|10G|OBS|VV737205|-->ORI-P01Ten2/2
+Te0/0/0/4          up          up          <*> P1|10G|OBS|VV737282|-->DEF-A01Ten1/5
+Te0/0/0/5          up          up          <*> P1|10G|OBS|VV738063|-->SC2-A02Te0/0/0/2
+Te0/0/0/6          up          up          <*> P1|10G|OBS|VV873100|-->SC2-A02Te0/0/0/3
+Te0/0/0/11         up          up          <*> P1|10G|COLT|QFC/JEV/LE-193899|-->DUN-T1Ten2/1
+Te0/0/0/12         up          up          <*>P1|10G|OBS|VV833951|-->DC2-B02_Te0/0/0/2
+Te0/0/0/13         up          up          <*>P1|10G|OBS|VV833928|-->DC2-B02_Te0/0/0/3
+Te0/0/0/14         up          up          <*>BBN_TIG-D4_Te0/0/0/0_10G
+Te0/0/0/15         up          up          <*>BBN_TIG-D4_Te0/0/0/1_10G
+Te0/0/0/16         up          up          <*> P1|10G|-->TIG-D6_TenGigE0/0/0/0
+Te0/0/0/17         up          up          <*> P1|10G|-->TIG-D6_TenGigE0/0/0/1
+Te0/0/0/19         up          up          <*> P1|1G|-->TIG-D0-Te0/0/0/0
+Gi0/0/1/1          up          up          <*>FED_NAN-A30_G0/0_COLT_NTE/JEV/LE-204899_1G
+Gi0/0/1/2          up          up          <*>FED_ORL-A1_S1P46_COLT_ORE/JEV/LE-204848_1G
+Gi0/0/1/3          up          up          NETSCOUT_CAPTURE_INCIDENT_ORLEANS
+
+
+Fri Nov 16 15:54:18.294 MET
+Building configuration...
+hostname TIG-D4
+
+Fri Nov 16 15:54:21.908 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE2                up          up          <*>P1|20G|-->TIG-D7Bundle-Ether2
+BE4                up          up          <*>BBN_TIG-D20_Po4_2G
+BE5                up          up          <*>FED_TIGR6-CLOUD-CFD-vdc2-A1_Po5_10G
+BE6                up          up          <*> FW_PRDSFW02_Inside_BE7_2G
+BE7                up          up          <*> FW_PRDSFW02_Outside_BE6_2G
+BE33               up          up          <*>P1|20G|-->TIG-D02Bundle-Ether 3
+BE59               up          up          <> TIGR4-OTV-INT-01-vdc2_Po301
+Te0/0/0/0          up          up          <*>P1|10G|-->TIG-D02Te0/0/0/0
+Te0/0/0/1          up          up          <*>P1|10G|-->TIG-D02Te0/0/0/1
+Te0/0/0/2          up          up          <*> FED_TIGR4RTRPCMS-H2_S1P1_10G
+Te0/0/0/4          up          up          <*> FW_PRDSFW02_Inside_Port23
+Te0/0/0/5          up          up          <*> FW_PRDSFW02_Outside_Port24
+Te0/0/0/6          up          up          <*> FED_TIGR4-ODIN-CFD-vdc2_ETH_2/2_10G
+Te0/0/0/7          up          up          <*> TigRtrPciDss-h1_S1P4
+Te0/0/0/8          up          up          <*> FED_TIGR6-CLOUD-CFD-vdc2-A1_SXPXX_PO5
+Te0/0/0/9          up          up          <*> RVP_L2DCI_TIGR6-CLOUD-OTV-vdc3-A1_S2P9
+Te0/0/0/10         up          up          <*> TigRtrPciDss-p1_S1P52
+Te0/0/0/11         up          up          <*> FED_TIGR4RTRPCMS-P1_S1P1_10G
+Te0/0/0/12         up          up          <*> FED_TIGR6-CLOUD-CFD-vdc2-A1_SXPXX_PO5
+Te0/0/0/18         up          up          <> TIGR4-OTV-INT-01-vdc2_Eth1/48
+Te0/0/1/0          up          up          CIP_RIX->NSA-ZONES_PNSATIGFW12_Port1
+Te0/0/1/1          up          up          <*>BBN_TIGCFDR4-02_S2P8_10G
+Te0/0/1/2          up          up          CIP_NSA-ZONES->RIX_PNSATIGFW12_Port2
+Te0/0/1/3          up          up          CIP_RIX->HNSA-ZONES_HNSATIGFW12_Port1
+Te0/0/1/4          up          up          HNSA-ZONES_HNSATIGFW12->RIX-ZONES_HNSATIGFW12_Port2
+Te0/0/1/5          up          up          <> TigRtrPacRix-p1_Eth1/1
+Te0/0/1/6          up          up          <*> BBN_TIGR4-BIP-CFD-A1_Eth1/46
+Te0/0/1/7          up          up          <*> BBN_TIGR4-BIP-CFD-A1_Eth1/47
+Te0/0/1/8          up          up          <*> <VRF>_TIGR4-SANA-CFD-A1_eth1/12
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         down        down        
+Te0/0/1/15         down        down        
+Te0/0/1/18         up          up          <> TIGR4-OTV-INT-01-vdc2_Eth6/48
+Te0/1/0/0          up          up          <*>P1|10G|-->TIG-D7Te0/1/0/0
+Te0/1/0/1          up          up          <*>P1|10G|-->TIG-D7Te0/1/0/1
+Te0/1/0/4          up          up          <*> FED_RIX_TIGR4-WRT-N5K-H1_S2P0
+Te0/1/0/5          up          up          <*> FED_RIX_TIGR4-WRT-N5K-P2_S2P0_10G
+Te0/1/0/6          up          up          Tigr4-Heb-p2<>Eth1/3
+Gi0/6/0/0          up          up          <*> FED_RIX_TigRtrIntRixR4-h1_G2/0/0
+Gi0/6/0/1          up          up          <*>FED_MAG-A10_S6P8_COLT/PAR/JEV/LE-205499_200M
+Gi0/6/0/2          down        down        FED_PIX_SAN-DEF-C2_S1P3_1G_COMPLETEL_SOCIET_L2L_6A8E
+Gi0/6/0/3          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P9_1G
+Gi0/6/0/4          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P10_1G
+Gi0/6/0/5          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P11_1G
+Gi0/6/0/6          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P12_1G
+Gi0/6/0/7          up          up          <*>BBN_TIGCFDR4-02-PRC-CAZA_S7P6_1G
+Gi0/6/0/8          up          up          <*> FED_TIG-R009_Gi0/2/0_1G
+Gi0/6/0/9          up          up          <*>FED_SQY-F10_S6P7_COLT_VRS/JEV/LE-204892_400M
+Gi0/6/0/10         up          up          <*> PIX_RLANTIG02_Gi0/0
+Gi0/6/1/0          up          up          <*> FED_TIG-D20_S1P20_1G
+Gi0/6/1/1          up          up          <*> FED_TIG-D20_S1P21_1G
+Gi0/6/1/2          up          up          <*> FED_RIX_TigRtrIntRixR4-p2_G2/0/0
+Gi0/6/1/3          up          up          <*> TIGR6K-VIAP-RTR-A2_Eth1/1
+Gi0/6/1/4          up          up          <> TIG-T10 /// Interco CE- PE
+Gi0/7/0/0          up          up          <*> FW_PASSUFW12_Port17
+Gi0/7/0/1          up          up          <*> FW_PASSUFW12_Port25
+Gi0/7/0/2          up          up          <*>FED_TIGR4-ASSU-N7K-A1_S3P1
+Gi0/7/0/3          up          up          <*> PIX_RDS_SYSLOG-FW_PNSATIGFW12-Aux_1G
+Gi0/7/0/4          up          up          <*> PIX_RIX_FRANFINANCE_1661_100M
+Gi0/7/0/5          up          up          <*> PIX_RVP-GIMS_TIGERY_1669_1G
+Gi0/7/0/6          up          up          <*>FED_ TIGR4-ALD-CFD-01_S1P16
+Gi0/7/0/9          up          up          <*>FED_ANJ-A20_S6P9_COLT_PAR/JEV/LE-205031_200M
+Gi0/7/0/10         up          up          <*> PIX_SGEF_CE_SGEF_TIGERY
+Gi0/7/0/11         up          up          <*> TIGSWIOOBR4-01_S0P24_1G
+Gi0/7/0/13         up          up          <*>FED_RIH-A20_S6P9_COLT_LIL/JEV/LE-204823_100M
+Gi0/7/0/14         up          up          <*>FED_SCH-A10_S6P1_COLT_SXB/JEV/LE-204969_200M
+Gi0/7/0/16         up          up          <*>FED_AUB-A10_S5P3_COLT_MRS/JEV/LE-204895_200M
+Gi0/7/0/17         up          up          <*> Interco_Vers_TigRtrSgc-p1
+Gi0/7/0/18         up          up          <*>FED_COL-A01_Gi0/1_COLT_JEV/XPS/LE-155885_100M
+Gi0/7/0/19         up          up          <*>Â FED_PRO-MCI10_S0P2_4M_OBS_0037FZA3
+Gi0/7/1/0          up          up          <*>FED_CAP-A10_S6P9_COLT_PAR/JEV/LE-204263_200M
+Gi0/7/1/1          up          up          <*>FED_HAU-A10_S6P9_COLT_PAR/JEV/LE-204474_200M
+Gi0/7/1/3          up          up          <*> PIX_RDS_RTE-HVA-BUISG_1668_100M
+Gi0/7/1/4          up          up          <*>FED_HAU-B10_S5P9_SFR_PAR/JEV/LE-205428_200M
+Gi0/7/1/6          up          up          <*> FW_PASSUFW12_Port18
+Gi0/7/1/7          up          up          
+Gi0/7/1/8          up          up          <*> FW_PASSUFW12_Port26
+Gi0/7/1/9          up          up          <*> FW_PASSUFW12_Port27
+Gi0/7/1/10         up          up          <*> FW_PRDSFW02_Inside_Port3_PO7
+Gi0/7/1/11         up          up          <*> FW_PRDSFW02_Inside_Port4_PO7
+Gi0/7/1/12         up          up          <*> FW_PRDSFW02_Outside_Port5_PO6
+Gi0/7/1/13         up          up          <*> FW_PRDSFW02_Outside_Port6_PO6
+Gi0/7/1/17         up          up          <*>RVP_SGF_TIGR4-CGA-ASR-01_Gi0/0/1
+
+
+Fri Nov 16 15:54:30.329 MET
+Building configuration...
+hostname TIG-D5
+
+Fri Nov 16 15:54:32.518 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->TIG-D6Bundle-Ether1
+BE2                up          up          <*>FED_TIGCFDDEVDR-R5-02_Po1_1G
+BE3                up          up          <*> P1|20G|-->TIG-D01_Po3
+BE5                up          up          <*>FED_TIGCFDPRODDR-R5-02_PO2_4G
+BE10               up          up          <*> FED_BUTANE_PC2
+BE15               up          up          -> IPT-TIGR4K-01
+BE16               up          up          -> IPT-TIGR4K-02
+BE18               up          up          <*> FED_RVP_ITEC_TIGCFDPROD-R4-01-Po2_10G
+BE20               up          up          -> mcluster-tigr5k-01
+BE35               up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-04_PO35_1G
+BE40               up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-03_PO40_1G
+BE50               up          up          <*>FED_RVP_L2DCI_TIGR5-MKT-OTV-vdc4-A1_PO50_1G
+BE130              up          up          <*>FED_TIGR5-MKTPROD-CFD-vdc2-A1_PO5_10G
+BE133              up          up          <*>FED_TIGR5-MKTDEV-CFD-vdc3-A1_PO5_10G
+BE150              up          up          <*> TIGCFDPROD-R5-01_Po150
+Te0/0/0/0          up          up          <*> P1|10G|-->TIG-D01_Te0/0/0/12
+Te0/0/0/1          up          up          <*> P1|10G|-->TIG-D01_Te0/0/0/13
+Te0/0/0/4          up          up          <*>FED_RVP_ITEC_N5K-MKTDMZ-TIGR5K-01_Eth1/2_10G
+Te0/0/0/5          up          up          <*>FED_TIG-D51_Te0/0/0_10G
+Te0/0/0/6          up          up          <> TIGR5-MKTPROD-CFD-vdc2-A1_E3/1
+Te0/0/0/7          up          up          <> TIGR5-MKTPROD-CFD-VDC2-A1_E4/4
+Te0/0/0/8          up          up          <> TIGR5-MKTDEV-CFD-vdc3-A1_E3/25
+Te0/0/0/9          up          up          <*> MCLUSTER-TIGR5K-01
+Te0/0/0/10         up          up          <*> MCLUSTER-TIGR5K-02
+Te0/0/1/0          up          up          <*> P1|10G|-->TIG-D6Te0/0/1/0
+Te0/0/1/1          up          up          <*> P1|10G|-->TIG-D6Te0/0/1/1
+Te0/0/1/4          up          up          <*> FED_TIGR5-NAS-CFD-A1_S1P48_10G
+Te0/0/1/5          up          up          <*> TIGCFDPROD-R5-01_Ten2/3
+Te0/0/1/6          up          up          <*> prod2-tigr4k-02
+Gi0/6/0/0          up          up          <*>FED_LOG-C10_Gi5/7-COLT_XPS/JEV/LE-205000_1G
+Gi0/6/0/3          up          up          <*> TORPEDO
+Gi0/6/0/6          up          up          <*> FED_BUTANE_S0P26_1G
+Gi0/6/0/7          up          up          <*> FED_TIGCFDDEVDR-R5-02_PC1
+Gi0/6/0/8          up          up          <*> FED_TIGCFDDEVDR-R5-02_PC1
+Gi0/6/0/9          up          up          <*> FED_TIGCFDDEVDR-R5-02_PC1
+Gi0/6/0/10         up          up          <*> ED_TIGCFDDEVDR-R5-02_PC1
+Gi0/6/0/11         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-04_Gi3/4_1G
+Gi0/6/0/12         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-04_Gi3/2_1G
+Gi0/6/0/13         up          up          <*>FED_RVP_L2DCI_TIGR5-MKT-OTV-vdc4-A1_Eth3/43_1G
+Gi0/6/0/14         up          up          <*>FED_RVP_L2DCI_TIGR5-MKT-OTV-vdc4-A1_Eth4/43_1G
+Gi0/6/0/15         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-03_Gi3/4_1G
+Gi0/6/0/16         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-03_Gi3/2_1G
+Gi0/6/0/17         up          up          <*> IPT-TIGR4K-02
+Gi0/6/0/18         up          up          <*> IPT-TIGR4K-01
+Gi0/6/1/0          up          up          <*>FED_CAU-C10_Gi5/1_COLT_PAR/JEV/LE-204949_200M
+Gi0/6/1/1          up          up          <*>FED_RUE-C10_Te5/1_COLT_XBT/JEV/LE-206750_200M
+Gi0/6/1/3          up          up          <*> PRODDR-TIGR5K-02
+Gi0/6/1/4          up          up          <*> PRODDR-TIGR5K-02
+Gi0/6/1/5          up          up          <*> PRODDR-TIGR5K-02
+Gi0/6/1/6          up          up          <*> PRODDR-TIGR5K-02
+Gi0/7/0/0          up          up          FED_RVP_ITEC_FALCON_Gi2/1_1G
+Gi0/7/0/10         up          up          <*>FED_NOI-X10_Gi5/8__COLT_XBG/JEV/LE-205092_1G
+
+
+Fri Nov 16 15:54:40.561 MET
+Building configuration...
+hostname TIG-D6
+
+Fri Nov 16 15:54:42.567 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->TIG-D5Bundle-Ether1
+BE2                up          up          <*>FED_TIGCFDDEV-R5-01_PO1_1G
+BE3                up          up          <*> P1|20G|-->TIG-D02_Po3
+BE4                up          up          <*>FED_TIGCFDPRODDR-R5-01_PO1_1G
+BE10               up          up          FED_BUTANE_PC1
+BE15               up          up          FED_IPT-TIGR4K-01_PC3
+BE16               up          up          FED_IPT-TIGR4K-02_PC4
+BE17               up          up          <*> BBN_TIGCFDPROD-R4-01-Po1
+BE19               up          up          -> mcluster-tigr5k-01
+BE25               up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-03_PO25_1G
+BE30               up          up          FED_ MCLUSTER-TIGR5K-03_Po30_2G
+BE35               down        down        <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-04_PO30_1G
+BE50               up          up          <*>FED_RVP_L2DCI_TIGR5-MKT-OTV-vdc4-A2_PO50_1G
+BE131              up          up          <*>FED_TIGR5-MKTPROD-CFD-vdc2-A2_PO5_10G
+BE134              up          up          <*>FED_TIGR5-MKTDEV-CFD-vdc3-A2_PO5_10G
+BE150              up          up          <*> TIGCFDPROD-R5-01_Po150
+Te0/0/0/0          up          up          <*> P1|10G|-->TIG-D02Ten8/5
+Te0/0/0/1          up          up          <*> P1|10G|-->TIG-D02Ten8/6
+Te0/0/0/4          up          up          <*>FED_RVP_ITEC_N5K-MKTDMZ-TIGR5K-02_Eth1/2_10G
+Te0/0/0/5          up          up          <*>FED_TIG-D41_Te0/0/0_10G
+Te0/0/0/6          up          up          <> TIGR5-MKTPROD-CFD-vdc2-A2_E3/1
+Te0/0/0/7          up          up          <> TIGR5-MKTPROD-CFD-VDC2-A2_E4/4
+Te0/0/0/8          up          up          <> TIGR5-MKTDEV-CFD-vdc3-A2_E3/25
+Te0/0/0/9          up          up          <*> FED_mcluster-TIGVSSR5-01_PC19
+Te0/0/0/10         up          up          <*> FED_mcluster-TIGVSSR5-01_PC19
+Te0/0/0/11         up          up          <*> DR_RIX_SGCIB_10G_RENATO_NEW_2/1
+Te0/0/0/12         up          up          <*> DR_RIX_SGCIB_10G_RENATO_NEW_2/2
+Te0/0/1/0          up          up          <*> P1|10G|-->TIG-D5Te0/0/1/0
+Te0/0/1/1          up          up          <*> P1|10G|-->TIG-D5Te0/0/1/1
+Te0/0/1/4          up          up          <*> FED_TIGR5-NAS-CFD-A2_S1P48_10G
+Te0/0/1/5          up          up          <*> TIGCFDPROD-R5-01_Ten2/3
+Te0/0/1/6          up          up          <*> FED_TIGCFDPROD-R4-01_PC1
+Gi0/6/0/0          up          up          <*> FED_TIGBKBR01_S1P22_1G
+Gi0/6/0/3          up          up          <*> TORPEDO
+Gi0/6/0/6          up          up          <*> FED_BUTANE_S0P25_1G
+Gi0/6/0/7          up          up          <*> FED_TIGCFDDEVDR-R5-01_PC1
+Gi0/6/0/8          up          up          <*> FED_TIGCFDDEVDR-R5-01_PC1
+Gi0/6/0/9          up          up          <*> FED_TIGCFDDEVDR-R5-01_PC1
+Gi0/6/0/10         up          up          <*> FED_TIGCFDDEVDR-R5-01_PC1
+Gi0/6/0/11         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-04_Gi3/3_1G
+Gi0/6/0/12         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-04_Gi3/1_1G
+Gi0/6/0/13         up          up          <*>FED_RVP_L2DCI_TIGR5-MKT-OTV-vdc4-A2_Eth3/43_1G
+Gi0/6/0/14         up          up          <*>FED_RVP_L2DCI_TIGR5-MKT-OTV-vdc4-A2_Eth4/43_1G
+Gi0/6/0/15         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-03_Gi3/3_1G
+Gi0/6/0/16         up          up          <*>FED_RVP_ITEC_MCLUSTER-TIGR5K-03_Gi3/1_1G
+Gi0/6/0/17         up          up          <*> FED_IPT-TIGR4K-02_S0P26_1G
+Gi0/6/0/18         up          up          <*> FED_IPT-TIGR4K-01_S0P26_1G
+Gi0/6/1/0          up          up          <*> BBN_RVP_ALD_Agences_SFR_0000003164100_1G
+Gi0/6/1/3          up          up          <*> FED_TIGCFDPRODDR-R5-01_PC1
+Gi0/6/1/4          up          up          <*> FED_TIGCFDPRODDR-R5-01_PC1
+Gi0/6/1/5          up          up          <*> FED_TIGCFDPRODDR-R5-01_PC1
+Gi0/6/1/6          up          up          <*> FED_TIGCFDPRODDR-R5-01_PC1
+Gi0/6/1/7          up          up          <*>FED_TIGR4-RWANALD01_Gi0/0/0_1G
+Gi0/7/0/0          down        down        
+Gi0/7/0/1          up          up          FED_RVP_ITEC_FINCH_Gi2/2_1G
+Gi0/7/0/2          up          up          <*> PIX_RDS_Corvette-Admin_100M
+Gi0/7/0/3          up          up          <*> PIX_RDS_Corvette-2_1G
+Gi0/7/0/4          up          up          <*> Interco_RIX_AND_GIMS_TIGRSGR01_Ge0/0/0_1000M
+Gi0/7/0/5          up          up          <*> PIX_RIX_Melodie_TigRtrMel-p1_S0P0_100M
+Gi0/7/0/6          up          up          <*> TIGSWIOOBR5-01_S0P24_1G
+
+
+Fri Nov 16 15:54:50.706 MET
+Building configuration...
+hostname SC2-A1
+
+Fri Nov 16 15:54:53.897 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                down        down        <*> P1|20G|-->SC2-A2Bundle-Ether1
+BE3                down        down        <*> P1|20G|-->SC2-A01_Po3
+BE6                up          up          <*> FW_PRDSFW301_Inside_BE7_2G
+BE7                up          up          <*> FW_PRDSFW301_Outside_BE6_2G
+BE59               up          up          <> SC2ASV-OTV-INT-01-vdc2_Po301
+Te0/0/0/0          up          up          P1|10G|-->SC2-A01_Te0/0/0/13
+Te0/0/0/1          up          up          P1|10G|-->SC2-A01_Te0/0/0/14
+Te0/0/0/2          up          up          <> SC2ASV-OTV-INT-01-vdc2_Eth1/48
+Te0/0/0/4          up          up          <*> P1|10G|-->SC2-A01Ten4/6
+Te0/0/0/6          up          up          <*> RVP_SI_SOC_SC2BJV-SOC-LF-03_S1P2
+Te0/0/0/7          up          up          <*> FED_SC2RTRWEBCELLR1-P1_S1P1_10G
+Te0/0/0/8          up          up          <*> FED_SC2CFDZEUSR1-03_Eth1/1_10G
+Te0/0/0/9          up          up          <*> FED_SC2CLK-CLOUD-CFD-vdc2_Eth1/5_10G
+Te0/0/0/10         up          up          <*> FED_Sc2RtrPciDss-p1_S1P52_10G
+Te0/0/0/11         up          up          <*> FED_SC2ASV-CDN-CFD-vdc02_S2P1_10G
+Te0/0/0/12         up          up          CIP_RIX->NSA-ZONES_PNSAFW301_Port1_SC2-MATRIXN301_1/2
+Te0/0/0/13         up          up          CIP_NSA-ZONES->RIX_PNSAFW301_Port2
+Te0/0/0/14         up          up          <> Sc2RtrPacRix-p1_Eth1/1
+Te0/0/0/15         up          up          <*> FW_PRDSFW301_Inside_Port23
+Te0/0/0/16         up          up          <*> FW_PRDSFW301_Outside_Port24
+Te0/0/0/17         up          up          <*> FED_Sc2asv-Heb-p2_S1P3_10G
+Te0/0/1/0          up          up          <*> P1|10G|-->SC2-A2Te0/0/1/0
+Te0/0/1/1          up          up          <*> P1|10G|-->SC2-A2Te0/0/1/1
+Te0/0/1/2          up          up          <> SC2ASV-OTV-INT-01-vdc2_Eth6/48
+Te0/0/1/4          up          up          <*> FED_SC2R1-GIAP-N5K-P1_S1P1
+Te0/0/1/6          up          up          <*> BBN_SC2ASV-SVC-CFD-A1_Eth1/46
+Te0/0/1/7          up          up          <*> BBN_SC2ASV-SVC-CFD-A1_Eth1/47
+Te0/0/1/8          up          up          <*> <VRF>_SC2ASV-SANA-CFD-A1_eth1/12
+Te0/0/1/9          up          up          CIP_NSA-ZONES->RIX_HNSAIPS301_1/1_PNSAFW301_Port8
+Te0/0/1/10         up          up          CIP_RIX->NSA-ZONES_PNSAFW301_Port7_SC2-MATRIXN301_1/2
+Te0/0/1/11         up          up          FED_SC2ASVRTRPCMS-P1_S1P1_10G
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         up          up          RIX-To-RVP-SSA-UAT_IPS
+Te0/0/1/15         up          up          IPS
+Te0/0/1/18         up          up          CIP_NSA-ZONES->RIX_PNSAFW301_Port4-MATRIXN301_4/2
+Te0/0/1/19         up          up          CIP_NSA-ZONES->RIX_PNSAFW301_Port3-MATRIXN301_3/2
+Hu0/4/0/0          up          up          <*>P1|100G|-->SC2-A2_HundredGigE0/4/0/0
+Hu0/5/0/0          up          up          <*>P1|100G|-->SC2-A01_HundredGigE0/4/0/7
+Gi0/6/0/0          up          up          <*> FED_SC2-A10-Gig_5/8_1G
+Gi0/6/0/1          up          up          <*> SC2OOBR1-01_S0P21_1G
+Gi0/6/0/2          up          up          <*> FED_SC2CLK-CLOUD-OTV-vdc3_S1P17_1G
+Gi0/6/0/3          up          up          <*> RVP_IBFS_DEV - Infrastructure IBF ITHRONE
+Gi0/6/0/4          up          up          
+Gi0/6/0/6          up          up          <*> FED_RIX_Sc2RtrIntRixR1-p1_1G
+Gi0/6/0/9          up          up          <*> SC2SWIDCWR1-01_Gi0/1_1G
+Gi0/6/0/10         up          up          <*> FED_RLANTIG02_S0P0_1G
+Gi0/6/0/13         up          up          <*> FED_SEC-C10_Gi5/1_1G
+Gi0/6/0/14         up          up          <*> BBN_RVP_ALD_Agences_SFR_0000000003164104_1G
+Gi0/6/0/15         up          up          <*> FED_SECHD1_S0P1_1G
+Gi0/6/0/16         up          up          <*> FED_RIH-A30_S5P8_SFR_0005802973|0005802697_1G
+Gi0/6/0/17         up          up          <*> FED_SC2-A20_S0P2_1G
+Gi0/6/0/18         up          up          <*> FED_SC2-R010_S0/2P0_1G
+Gi0/6/0/19         up          up          
+Gi0/6/1/0          up          up          <*> SC2ASV-IBFS-CFD-A1_S1P48
+Gi0/6/1/1          up          up          <*>  FED_MON-CDN-CFD-01_S1P1_1G_COLT_LIL_MCM_LE-222832
+Gi0/7/0/2          up          up          <*> FED_SC2ASV-ODIN-CFD-vdc2_S3P35_1G
+Gi0/7/0/3          up          up          <*> FED_RLANSEC011_S0P1_1G
+Gi0/7/0/4          up          up          <*> PIX_RIX_Franfinance_1678_1G
+Gi0/7/0/6          up          up          <*> PIX_RDS_RTE-HVA-BUISG_1677_100M
+Gi0/7/0/7          up          up          <*> FW_PSZFW301_Port18
+Gi0/7/0/8          up          up          <*> FW_PSZFW301_Port19
+Gi0/7/0/9          up          up          <*> FW_PSZFW301_Port26
+Gi0/7/0/10         up          up          <*> FW_PSZFW301_Port27
+Gi0/7/0/11         up          up          <*> FED_SECSMCRTR002_NEW_S0P1_1G
+Gi0/7/0/12         up          up          <*> FED_TOU-R10_S5P16_COLT_LIL/TLS/LE-220830_100M
+Gi0/7/1/10         up          up          <*> FW_PRDSFW301_Inside_Port3_PO7
+Gi0/7/1/11         up          up          <*> FW_PRDSFW301_Inside_Port4_PO7
+Gi0/7/1/12         up          up          <*> FW_PRDSFW301_Outside_Port5_PO6
+Gi0/7/1/13         up          up          <*> FW_PRDSFW301_Outside_Port6_PO6
+Gi0/7/1/17         up          up          <*>RVP_SGF_SC2ASV-CGA-ASR-01_Gi0/0/2
+
+
+Fri Nov 16 15:55:02.363 MET
+Building configuration...
+hostname SC2-A2
+
+Fri Nov 16 15:55:05.378 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                down        down        <*> P1|20G|-->SC2-A1Bundle-Ether1
+BE6                up          up          <*> FW_PRDSFW302_Inside_BE7_2G
+BE7                up          up          <*> FW_PRDSFW302_Outside_BE6_2G
+BE20               up          up          <*> FED_ITEC_SC2-WOC-DWAP-01_Po3
+BE59               up          up          <> SC2CLK-OTV-INT-01-vdc2_Po301
+Te0/0/0/2          up          up          <> SC2CLK-OTV-INT-01-vdc2_Eth1/48
+Te0/0/0/4          up          up          <*>BBN_SC2CFDR3-01_S1P1_VVXXXXXX_10G
+Te0/0/0/6          up          up          <*> RVP_SI_SOC_SC2BJV-SOC-LF-04_S1P2
+Te0/0/0/7          up          up          <*>FED_RIX_SC2RTRWEBCELLR3-P1_S1/P1_10G
+Te0/0/0/8          up          up          <*> FED_SC2CFDZEUSR2-04_Eth1/1_10G
+Te0/0/0/9          up          up          <*> FED_SC2BJV-CLOUD-CFD-vdc2_Eth1/5_10G
+Te0/0/0/10         up          up          <*> RIX_Sc2RtrPciDss-p2_S1P52
+Te0/0/0/11         up          up          <*> FED_SC2CFDMKTR3-01_ETH1/1
+Te0/0/0/12         up          up          <*> FED_RIX_SC2ASV-WRT-N5K-P2_S2P0_10G
+Te0/0/0/13         up          up          <*>FED_LIL-C10_S1P1_10G
+Te0/0/0/14         up          up          <*> FED_ITEC_SC2-RTR-LOW-DWAP-01_P0/1/8_10G
+Te0/0/0/15         up          up          <*> FW_PRDSFW302_Inside_Port23
+Te0/0/0/16         up          up          <*> FW_PRDSFW302_Outside_Port24
+Te0/0/0/18         up          up          <*> FED_ITEC_SC2-WOC-DWAP-01_Ten1/7_10G
+Te0/0/0/19         up          up          <*> FED_ITEC_SC2-WOC-DWAP-01_Ten1/8_10G
+Te0/0/1/0          up          up          <*>P1|10G|-->SC2-A1Te0/0/1/0
+Te0/0/1/1          up          up          <*>P1|10G|-->SC2-A1Te0/0/1/1
+Te0/0/1/2          up          up          <> SC2CLK-OTV-INT-01-vdc2_Eth6/48
+Te0/0/1/4          up          up          <*>FED_SC2R1-GIAP-N5K-P2_S1P1
+Te0/0/1/6          up          up          <*> BBN_SC2CLK-SVC-CFD-A2_Eth1/46
+Te0/0/1/7          up          up          <*> BBN_SC2CLK-SVC-CFD-A2_Eth1/47
+Te0/0/1/8          up          up          <*> <VRF>_SC2CLK-SANA-CFD-A2_eth1/12
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/16         up          up          CIP_NSA-ZONES->RIX_PNSAFW302_Port2
+Te0/0/1/17         up          up          CIP_RIX->NSA-ZONES_PNSAFW302_Port1_SC2
+Te0/0/1/18         up          up          CIP_NSA-ZONES->RIX_PNSAFW302_Port4-BZEUSBYP302_4/2
+Te0/0/1/19         up          up          CIP_NSA-ZONES->RIX_PNSAFW302_Port3-BZEUSBYP302_3/2
+Hu0/4/0/0          up          up          <*>P1|100G|-->SC2-A1_HundredGigE0/4/0/0
+Hu0/5/0/0          up          up          <*>P1|100G|-->SC2-A02_HundredGig_0/4/0/7
+Gi0/6/0/0          up          up          <*> FED_SC2-A10-Gig_5/7_1G
+Gi0/6/0/1          up          up          <*> SC2OOBR1-01_S0P21_1G
+Gi0/6/0/2          up          up          <*>RVP_L2DCI_SC2BJV-CLOUD-OTV-vdc3_S1P1
+Gi0/6/0/3          up          up          <*> RVP_IBFS_DEV - Infrastructure IBF ITHRONE
+Gi0/6/0/4          up          up          <*> SOC_SC2BJV-SOC-NOOBA-01_Eth50
+Gi0/6/0/6          up          up          <*> FED_RIX_Sc2RtrIntRixR1-p2_1G
+Gi0/6/0/9          up          up          <*> SC2SWIDCWR3-01_Gi0/1_1G
+Gi0/6/0/10         up          up          <*>FED_SC2-VIAP-RTR-A2_S1P1
+Gi0/6/0/11         up          up          <*> FED_MEB-A10_S0P0
+Gi0/6/0/14         up          up          <*> MihRtrSGEBS-p1_S0P2_1G_OBS_0041GWW6
+Gi0/7/0/0          up          up          <*> FED_RVP_ITEC_RWANSEC01_S0P0_1G
+Gi0/7/0/1          up          up          <*> Interco_Vers_Sc2-RtrSgc-p1
+Gi0/7/0/2          up          up          <*> SC2CLK-ODIN-CFD_RVP_NOOBA_S3P35_996_10G
+Gi0/7/1/10         up          up          <*> FW_PRDSFW302_Inside_Port3_PO7
+Gi0/7/1/11         up          up          <*> FW_PRDSFW302_Inside_Port4_PO7
+Gi0/7/1/12         up          up          <*> FW_PRDSFW302_Outside_Port5_PO6
+Gi0/7/1/13         up          up          <*> FW_PRDSFW302_Outside_Port6_PO6
+
+
+Fri Nov 16 15:55:13.577 MET
+Building configuration...
+hostname DC2-B1
+
+Fri Nov 16 15:55:16.781 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE5                up          up          <*>FED_DC2A3-CLOUD-CFD-vdc2_Po5_10G
+BE20               up          up          <*> FED_ITEC_DC2-WOC-DWAP-01_Po3
+BE33               up          up          <*> P1|20G|-->DC2-B01_PO33
+BE51               up          up          <*> FED_DC2CLSHERMINEA4-02_PO3
+Te0/0/0/0          up          up          <*> P1|10G|-->DC2-B01_Te6/1
+Te0/0/0/1          up          up          <*> P1|10G|-->DC2-B01_Te6/2
+Te0/0/0/2          up          up          <*> P1|10G|-->DC2-B01_Te6/5
+Te0/0/0/3          up          up          <*> P1|10G|-->DC2-B01_Te6/6
+Te0/0/0/4          up          up          <*> FED_DC2A3-CLOUD-CFD-vdc2_S4P36_PO5
+Te0/0/0/5          up          up          <*> FED_DC2A3-CLOUD-CFD-vdc2_S1P3_PO5
+Te0/0/0/6          up          up          <>  DC2RTRWEBCELLA4-H1_Eth1/1_10G
+Te0/0/0/7          up          up          <*> FED_DC2RTRWEBCELLA1-P1_Eth1/1_10G
+Te0/0/0/8          up          up          <*>FED_DC2A3-ODIN-CFD-VDC2_Eth2/1_10G
+Te0/0/0/9          up          up          <*> RVP_SI_SOC_DC2A4-SOC-LF-03_S1P2
+Te0/0/0/10         down        down        
+Te0/0/0/11         up          up          <*> FED_DC2A4-GIAP-N5K-P1
+Te0/0/0/12         up          up          <*> FED_DC2CLSHERMINEA4-01_S1P31_10G
+Te0/0/0/13         up          up          <*> FED_LIL-C20_S1P1_10G
+Te0/0/0/14         up          up          <*>FED_ASU-N7K-DC2-2B1-2002-MOTV_Eth2/9_10G
+Te0/0/0/19         up          up          <*>FED_DC2A1-SGFDEV-AS400-CFD-01_Eth1/46_10G
+Te0/0/1/0          up          up          <*> P1|10G|-->DC2-B2_Te0/0/1/0
+Te0/0/1/1          up          up          <*> P1|10G|-->DC2-B2_Te0/0/1/1
+Te0/0/1/2          up          up          <*> P1|10G|-->DC2-B2_Te0/0/1/2
+Te0/0/1/3          up          up          <*> P1|10G|-->DC2-B2_Te0/0/1/3
+Te0/0/1/4          up          up          <*> FED_DC2CFDA1-01_Te4/8_10G
+Te0/0/1/5          up          up          <*>FED_DC2CFDZEUSA2-02_Eth1/1_10G
+Te0/0/1/6          up          up          <*> FED_ITEC_CBB-DC2-01_Te1/4
+Te0/0/1/7          up          up          <*> FED_ITEC_DC2-WOC-DWAP-01_Ten1/7_10G
+Te0/0/1/8          up          up          <*> FED_ITEC_DC2-WOC-DWAP-01_Ten1/8_10G
+Te0/0/1/9          up          up          <*>FED_RVP_L2DCI_DC2A3-CLOUD-OTV-VDC3_Eth2/9_10G
+Te0/0/1/10         up          up          <*> FED_ITEC_DC2-RTR-LOW-DWAP-01_P0/1/8_10G
+Te0/0/1/11         up          up          <*> FED_DC2A1-CFD-CSR-A1_S1P1_10G
+Te0/0/1/12         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/14         up          up          RVP_SSA_UAT_to_RIX_IPS
+Te0/0/1/15         up          up          RVP_SSA_UAT_to_RIX_IPS
+Te0/0/1/18         up          up          <*> <VRF>_DC2A1-SANA-CFD-A1_eth1/12
+Te0/0/1/19         up          up          <*>FED_DC2A1-SGFPRD-AS400-CFD-01_Eth1/46_10G
+Hu0/4/0/0          up          up          <*>P1|100G|-->DC2-B2_HundredGig_0/4/0/0
+Hu0/4/0/2          up          up          FED_ASU-SPN-DC2-COM-1001_HundredGig_1/64_100G
+Hu0/4/0/3          up          up          FED_ASU-SPN-DC2-2B1-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DC2-2B1-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DC2-2B1-0201_HundredGig_1/1_100G
+Hu0/4/0/6          down        down        
+Hu0/5/0/0          up          up          <*>P1|100G|-->DUB-B1_HundredGig_0/4/0/5
+Gi0/7/0/0          up          up          <*> FED_DC2A3-ALD-CFD-A1_S1P16
+Gi0/7/0/1          up          up          <*>FED_ANJ-A10_S6P5_SFR_0005802766|0005802105_200M
+Gi0/7/0/6          up          up          <*>FED_DC2-B40_Gi5/1_1G
+Gi0/7/0/7          up          up          <*> DC2SWIDCW2A1-01_Gi0/1_1G
+Gi0/7/0/8          up          up          
+Gi0/7/0/9          up          up          <*>FED_HAU-B20_S5P8_SFR_0005802408|0005802408_200M
+Gi0/7/0/10         up          up          <*> FED_DC2A4-GIAP-N5K-H1_S1P1
+Gi0/7/0/11         up          up          <*>FED_DC2A3-RWANALD01_Gi0/0/0_1G
+Gi0/7/0/16         up          up          <*>FED_TSUNAMI_S1P3_SFR_0005803142|0005802729_1G
+Gi0/7/0/18         up          up          <*>FED_MON-A20_Te5/16__COLT_XBT/JEV/LE-242979_1G
+Gi0/7/1/0          up          up          <*>FED_HAU-A10_S5P9_SFR_5802893|0005802404_200M
+Gi0/7/1/1          up          up          <*> <>BBN_DC2CFDA1-01_Gi6/3-PRC-CAZA
+Gi0/7/1/2          up          up          <*> DC2SWIOOBA1-01_S0P24_1G
+Gi0/7/1/3          up          up          <*> FED_SCH-A10_Gi5/1_SFR-0005802990|0005802712_200M
+Gi0/7/1/4          up          up          <*>FED_MAR-A10_S6P3_SFR_0005802955|0005802421_200M
+Gi0/7/1/5          up          up          <*> FED_CAP-A10_Gi5/9_SFR_5802347_200M
+Gi0/7/1/6          up          up          <*>FED_MAG-A20_S5P9_SFR_0005802951| 0005802416_200M
+
+
+Fri Nov 16 15:55:25.011 MET
+Building configuration...
+hostname DC2-B2
+
+Fri Nov 16 15:55:27.833 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE5                up          up          <*>FED_DC2A4-CLOUD-CFD-vdc2_PO5_10G
+BE50               up          up          <*>PIX_DC2A2-PAD-INT-A1
+BE51               up          up          <*> FED_DC2CLSHERMINEA4-02_Po3
+Te0/0/0/0          up          up          P1|10G|-->DC2-B02_Te0/0/0/10
+Te0/0/0/1          up          up          P1|10G|-->DC2-B02_Te0/0/0/11
+Te0/0/0/2          up          up          P1|10G|-->DC2-B02_Te0/0/0/12
+Te0/0/0/3          up          up          P1|10G|-->DC2-B02_Te0/0/0/13
+Te0/0/0/4          up          up          <*> FED_DC2A4-CLOUD-CFD-vdc2_S4P36_PO5
+Te0/0/0/5          up          up          <*> FED_DC2A4-CLOUD-CFD-vdc2_S4P3_PO5
+Te0/0/0/7          up          up          <*> FED_DC2RTRWEBCELLA2-P1_Eth1/1_10G
+Te0/0/0/8          up          up          <*> FED_DC2A4-ODIN-CFD-VDC2_Eth2/1_10G
+Te0/0/0/9          up          up          <*> RVP_SI_SOC_DC2A4-SOC-LF-04_S1P2
+Te0/0/0/11         up          up          <*> FED_DC2A4-GIAP-N5K-P2_S1P1
+Te0/0/0/12         up          up          <*> FED_DC2CLSHERMINEA4-02_S1P31
+Te0/0/0/19         up          up          <*>FED_FED_DC2A1-SGFDEV-AS400-CFD-02_Eth1/46_10G
+Te0/0/1/0          up          up          <*> P1|10G|-->DC2-B1_Te0/0/1/0
+Te0/0/1/1          up          up          <*> P1|10G|-->DC2-B1_Te0/0/1/1
+Te0/0/1/2          up          up          <*> P1|10G|-->DC2-B1_Te0/0/1/2
+Te0/0/1/3          up          up          <*> P1|10G|-->DC2-B2_Te0/0/1/3
+Te0/0/1/4          up          up          <*> FED_DC2CFDA2-01_Te4/8_10G
+Te0/0/1/5          up          up          <*>FED_DC2CFDZEUSA3-02_Eth1/1_10G
+Te0/0/1/6          up          up          <*>FED_RVP_ITEC_CBB-DC2-02_Te1/4_10G
+Te0/0/1/7          up          up          <*> DC2A2-PAD-INT-A1_OVH-S1P1
+Te0/0/1/8          up          up          <*> DC2A2-PAD-INT-A1_OVH-S1P2
+Te0/0/1/9          up          up          <*>FED_RVP_L2DCI_DC2A4-CLOUD-OTV-VDC3_Eth2/9_10G
+Te0/0/1/11         up          up          <*> FED_DC2A2-CFD-CSR-A2_S1P1_10G
+Te0/0/1/12         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD_to_RIX_IPS
+Te0/0/1/18         up          up          <*> <VRF>_DC2A2-SANA-CFD-A2_eth1/12
+Te0/0/1/19         up          up          <*>FED_DC2A1-SGFPRD-AS400-CFD-02_Eth1/46_10G
+Hu0/4/0/0          up          up          <*>P1|100G|-->DC2-B1_HundredGig_0/4/0/0
+Hu0/4/0/3          up          up          FED_ASU-SPN-DC2-2B1-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DC2-2B1-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DC2-2B1-0201_HundredGig_1/1_100G
+Hu0/5/0/0          up          up          FED_DC2-B02_HundredGig_0/4/0/5_100G
+Gi0/7/0/0          up          up          <*> FED_DC2A3-ALD-CFD-A2_S1P16
+Gi0/7/0/1          up          up          <*>FED_CAU-C10_Gi6/1_SFR_0005802884|0005802390_1G
+Gi0/7/0/3          up          up          <*> FED_DC2-B20_S0P2_1G_COLT_XBG/JEV/LE-143950
+Gi0/7/0/5          up          up          <*>FED_LOG-C10_Gi6/7_SFR_0005802897|0005802412_1G
+Gi0/7/0/6          up          up          <*>FED_DC2-B40_Gi6/1_1G
+Gi0/7/0/7          up          up          <*> DC2SWIDCW2A2-01_Gi0/1_1G
+Gi0/7/0/8          up          up          <*> SOC_DC2A4-SOC-01_Eth46
+Gi0/7/0/10         up          up          <*> FED_DC2A4-GIAP-N5K-H2_S1P1
+Gi0/7/0/16         up          up          <*>FED_NOI-X10_Gi6/8_SFR_0005803143|0005802739_1G
+Gi0/7/0/17         up          up          <*> FED_MAL-V10_S5P16_T_1G
+Gi0/7/1/0          up          up          <*>FED_RUE-C20_Te5/1_SFR_0005802988|0005866293_200M
+Gi0/7/1/1          up          up          <*> <>BBN_DC2CFDA2-01_Gi6/3-PRC-CAZA
+Gi0/7/1/2          up          up          <*> DC2SWIOOBA2-01_S0P24_1G
+Gi0/7/1/3          up          up          <*> FED_DC2-B10_FA0/0/0
+Gi0/7/1/4          up          up          <*>FED_TOU-R20_S5P16_SFR_0000000008514373_100M
+
+
+Fri Nov 16 15:55:36.064 MET
+Building configuration...
+hostname DEF-A2
+
+Fri Nov 16 15:55:38.695 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE2                up          up          <*> FED_DEF-A10_Po2_T_2G
+BE3                up          up          <*> FED_DEF-C30_Po3_T_2G
+BE4                up          up          <*> FED_DEF-C31_Po4_T_2G
+BE5                down        down        <*> DEFR1-PROD-CFD-A1
+BE6                up          up          <*> FED_MGT_DEF-A11_Po5
+BE8                up          up          <*> FED_MGT_DEF-Q11_Po2
+BE9                up          up          <*> FED_MGT_DEF-U11_Po2
+BE12               up          up          <*> DEF-A11 Gi1/18
+Te0/0/0/0          up          up          <*> P1|10G|-->DEF-A01
+Te0/0/0/4          up          up          <*> FED_MGT_ALICLSIMMPR2-A1
+Te0/0/0/5          up          up          <*> FED_MGT_DEF-G21_S5P4
+Te0/0/0/6          up          up          <*> DEF-A11-Po5-Ten5/5
+Te0/0/0/7          up          up          <*> BBN_HALNY_S3P2
+Te0/0/0/8          up          up          <*> RLANALI01 Ten2/1
+Te0/0/0/9          up          up          <*> RLANALI01_Via_Bypass Te1/4
+Te0/0/0/10         up          up          <*> <> BBN_DEF-A20_S3P3_10G
+Te0/0/0/11         up          up          <*> P1|10G|-->DEF-C2_L2_Te0/0/0/11
+Te0/0/0/13         up          up          Reserved_DEF-G12_Te3/3
+Te0/0/1/0          up          up          <*> BBN_DEF-C2_2011_Te0/0/1/0
+Gi0/6/0/0          up          up          <*> FED_DEF-A10_S1P1_T_1G
+Gi0/6/0/1          up          up          <*> FED_DEF-A10_S2P1_T_1G
+Gi0/6/0/2          up          up          FED_DEF-C30_S5P2_T_1G
+Gi0/6/0/3          up          up          <*> FED_DEF-C30_S6P2_T_1G
+Gi0/6/0/4          up          up          <*> FED_DEF-C31_S5P2_T_1G
+Gi0/6/0/5          up          up          <*> FED_DEF-C31_S6P2_T_1G
+Gi0/6/0/6          up          up          <*> FED_DEF-E10_S5P8
+Gi0/6/0/7          up          up          <*> FED_MGT_DEF-D10_S1P19
+Gi0/6/0/8          up          up          <*> PIX_MGMT_DEF-DR1_1G
+Gi0/6/0/9          up          up          <*> PIX_MGMT_DEF-FR1_1G
+Gi0/6/0/10         up          up          <*> PIX_MGMT_DEF-ES1_1G
+Gi0/6/0/11         up          up          <*> FED_DEF-AP02_G0P0_1G
+Gi0/6/0/12         up          up          <*> PIX_SGCF_CE_BT_SGCIB_VALMY
+Gi0/6/0/13         up          up          <*> PIX_SGEF_CE_BT_SGCIB_VALMY
+Gi0/6/0/16         down        down        <*> DEFR1-PROD-CFD-A1 Eth1/9
+Gi0/6/0/17         down        down        <*> DEFR1-PROD-CFD-A1 Eth1/10
+Gi0/6/0/18         up          up          <*> DEF-A11 Gi1/18
+Gi0/7/0/1          up          up          <*> PIX_RIX_FIMAT-1-CHELY_196_100M
+Gi0/7/0/2          up          up          <*> PIX_RVP_ITEC_TOIP-DEF-A50_214_1G
+Gi0/7/0/3          up          up          <*> PIX_RVP_ITEC_TOIP-DEF-A51_1082_1G
+Gi0/7/0/4          down        down        PIX_RVP_ITEC_TOIP-DEF-A51_1082_1G
+Gi0/7/0/5          down        down        PIX_RVP_ITEC_TOIP-DEF-A50_214_1G
+Gi0/7/0/6          up          up          <*> PIX_RDS_TOIP-DEF-C60-01_200C_100M
+Gi0/7/0/7          up          up          <*> BBN_DEF-A13_Gi0/2
+Gi0/7/0/8          up          up          <*>FED_ROM-R10_Gi0/1_SFR_0005802974|0005802700_10M
+Gi0/7/0/9          up          up          <*> GW_Cisco_DEF
+Gi0/7/0/10         up          up          <*> FED_DEF-O20_S1P24_1G
+Gi0/7/0/11         up          up          <*> FED_DEF-G10_S5P2_1G
+Gi0/7/0/12         up          up          <*> FED_DEF-H10_S6P9_1G_FOD_017_U05_047
+Gi0/7/0/13         up          up          <*> FED_DEF-U11_S5P1_017_U01_013_1G
+Gi0/7/0/14         up          up          <*> FED_DEF-Q11_S5P1
+
+
+Fri Nov 16 15:55:47.015 MET
+Building configuration...
+hostname DEF-B1
+
+Fri Nov 16 15:55:48.824 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->DEF-B2Bundle-Ether1
+BE3                up          up          <*> P1|20G|-->DEF-B01Port-channel3
+Te0/0/0/0          up          up          <*> P1|10G|-->DEF-B01Ten1/2
+Te0/0/0/1          up          up          <*> P1|10G|-->DEF-B01Ten2/6
+Te0/0/0/4          up          up          <*> P1|10G|-->DEF-B2Te0/4
+Te0/0/0/5          up          up          <*> P1|10G|-->DEF-B2Te0/5
+Te0/0/0/8          down        down        
+Te0/0/0/9          up          up          <*> FED_DEFBCFDPROD-L1-01_S1P1_10G
+Te0/0/0/10         up          up          <*> FED_DEF-B10_S1P1_10G
+Te0/0/0/11         up          up          <*> FED_DEF-B11_S5P4_10G
+Te0/0/0/12         down        down        
+Te0/0/0/13         up          up          <*> Reserved_DEF-G22_Te3/3
+Gi0/0/1/0          up          up          <*> FED_DEFBSWIOOBL1-01_S1P28_1G
+Gi0/0/1/9          up          up          <*> BBN_MGMT_DEF-B14_Gi0/0
+Gi0/0/1/10         up          up          <*> FED_DEF-G20_S1P20_1G_FOD_017_U32_039_B
+Gi0/0/1/12         up          up          <*> FED_DEF-H11_S5P16_1G_FOD_017_U04_048
+Gi0/0/1/13         down        down        
+Gi0/0/1/19         down        down        
+
+
+Fri Nov 16 15:55:56.675 MET
+Building configuration...
+hostname DEF-C2
+
+Fri Nov 16 15:55:59.291 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE2                up          up          <*> FED_DEF-C10_Po2_T_2G
+BE3                up          up          <*> FED_DEF-C40_Po3_T_2G
+BE4                up          up          <*> FED_DEF-C41_Po4_T_2G
+BE5                down        down        <*>DEFR1-PROD-CFD-A2
+BE6                up          up          <*> FED_MGT_DEF-C12_Po5
+BE8                up          up          <*> FED_MGT_DEF-P11_Po2
+BE9                up          up          <*> FED_MGT_DEF-U21_Po2
+BE12               up          up          <*>DEF-A11Po12
+Te0/0/0/0          up          up          <*> P1|10G|-->DEF-B01_Ten2/2
+Te0/0/0/4          up          up          <*> FED_MGT_ALICLSIMMPR2-A1
+Te0/0/0/5          up          up          <*> FED_MGT_DEF-G11_S5P4
+Te0/0/0/6          up          up          
+Te0/0/0/7          up          up          <*> BBN_HALNY2_S3P2
+Te0/0/0/8          up          up          <*>BBN_DEF-G31_S1P1_10G
+Te0/0/0/10         up          up          <*>BBN_DEF-C20_S3P3_10G
+Te0/0/0/11         up          up          <*> P1|10G|-->DEF-A2_PIX_LAYER2
+Te0/0/1/0          up          up          <*> BBN_MGT_DEF-A2
+Gi0/6/0/0          up          up          <*> FED_DEF-C10_S1P1_T_1G
+Gi0/6/0/1          up          up          <*> FED_DEF-C10_S2P1_T_1G
+Gi0/6/0/2          up          up          <*> FED_DEF-C40_S5P2_T_1G
+Gi0/6/0/3          up          up          <*> FED_DEF-C40_S6P2_T_1G
+Gi0/6/0/4          up          up          <*> FED_DEF-C41_S4P2_T_1G
+Gi0/6/0/5          up          up          <*> FED_DEF-C41_S6P2_T_1G
+Gi0/6/0/6          up          up          <*> FED_DEF-E10_S6P8
+Gi0/6/0/7          up          up          <*> FED_DEF-D10_S5P3_2037_1G
+Gi0/6/0/8          up          up          <*>FED_SQY-F10_S5P7_SFR_0005803140|0006344104_400M
+Gi0/6/0/9          up          up          <*> FED_PDF-P20_S1P10_T_1G_XBT/LE-124389_COLT
+Gi0/6/0/16         down        down        <*>DEFR1-PROD-CFD-A2
+Gi0/6/0/17         down        down        <*>DEFR1-PROD-CFD-A2
+Gi0/6/0/18         up          up          <*>DEF-A11
+Gi0/7/0/1          up          up          <*> PIX_RIX_FIMAT-1-CHELY_196_100M
+Gi0/7/0/2          up          up          <*> PIX_RVP_ITEC_TOIP-DEF-C50_217_1G
+Gi0/7/0/3          up          up          <*> PIX_RVP_ITEC_TOIP-DEF-C51_219_1G
+Gi0/7/0/5          down        down        PIX_RVP_ITEC_TOIP-DEF-C50_217_1G
+Gi0/7/0/6          down        down        PIX_RVP_ITEC_TOIP-DEF-C51_219_1G
+Gi0/7/0/7          up          up          <*> BBN_DEF-C13_Gi0/2
+Gi0/7/0/11         up          up          <*> BBN_DEF-T10_FOD_ROB2413154_S5P1_1G
+Gi0/7/0/12         up          up          <*> BBN_DEF-M30_FOD_ROB/017_U43_057_te5/16_1G
+Gi0/7/0/13         up          up          <*> FED_DEF-U21_S5P1_FOD_017_U75_014_1G
+Gi0/7/0/14         up          up          <*> FED_DEF-P11_S5P1
+Gi0/7/0/15         up          up          <*> PIX_MGMT_DEF-QW1_1G
+Gi0/7/0/16         up          up          <*> PIX_MGMT_DEF-CS1_1G
+Gi0/7/0/17         up          up          <*> PIX_MGMT_DEF-UB1_1G
+Gi0/7/1/1          up          up          <*> PIX-RDS_ADM_TMA_218_100M
+Gi0/7/1/5          up          up          <*> FED_DEF-C1_Fast0/0_T_100M
+Gi0/7/1/6          up          up          <*> FED_DEF-CP02_G0/1
+
+
+Fri Nov 16 15:56:07.542 MET
+Building configuration...
+hostname DEF-B2
+
+Fri Nov 16 15:56:09.344 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->DEF-B1Port-channel1
+BE3                up          up          <*> P1|20G|-->DEF-A01Port-channel3
+Te0/0/0/0          up          up          <*> P1|10G|-->DEF-A01Ten1/2
+Te0/0/0/1          up          up          <*> P1|10G|-->DEF-A01Ten2/6
+Te0/0/0/4          up          up          <*> P1|10G|-->DEF-B1TenGigE0/0/0/4
+Te0/0/0/5          up          up          <*> P1|10G|-->DEF-B1TenGigE0/0/0/5
+Te0/0/0/8          up          up          <*> FED_DEF-B31_S1P1_10G
+Te0/0/0/9          up          up          <*> FED_DEFBCFDPROD-L2-01_S1P1_10G
+Te0/0/0/10         up          up          <*> FED_DEF-B20_S1P1_10G
+Te0/0/0/11         up          up          <*> FED_DEF-B21_S5P4_10G
+Gi0/0/1/0          up          up          <*> FED_DEFBSWIOOBL2-01_S1P28_1G
+Gi0/0/1/10         up          up          <*> FED_DEF-O10-S1P24_1G
+Gi0/0/1/11         up          up          <*> FED_DEF-T20_FOD_ROB2425552_S5P1_1G
+Gi0/0/1/12         up          up          <*> FED_DEF-M40_FOD_017_U05_058_te5/16_1G
+
+
+Fri Nov 16 15:56:17.161 MET
+Building configuration...
+hostname TIG-D4
+
+Fri Nov 16 15:56:20.768 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE2                up          up          <*>P1|20G|-->TIG-D7Bundle-Ether2
+BE4                up          up          <*>BBN_TIG-D20_Po4_2G
+BE5                up          up          <*>FED_TIGR6-CLOUD-CFD-vdc2-A1_Po5_10G
+BE6                up          up          <*> FW_PRDSFW02_Inside_BE7_2G
+BE7                up          up          <*> FW_PRDSFW02_Outside_BE6_2G
+BE33               up          up          <*>P1|20G|-->TIG-D02Bundle-Ether 3
+BE59               up          up          <> TIGR4-OTV-INT-01-vdc2_Po301
+Te0/0/0/0          up          up          <*>P1|10G|-->TIG-D02Te0/0/0/0
+Te0/0/0/1          up          up          <*>P1|10G|-->TIG-D02Te0/0/0/1
+Te0/0/0/2          up          up          <*> FED_TIGR4RTRPCMS-H2_S1P1_10G
+Te0/0/0/4          up          up          <*> FW_PRDSFW02_Inside_Port23
+Te0/0/0/5          up          up          <*> FW_PRDSFW02_Outside_Port24
+Te0/0/0/6          up          up          <*> FED_TIGR4-ODIN-CFD-vdc2_ETH_2/2_10G
+Te0/0/0/7          up          up          <*> TigRtrPciDss-h1_S1P4
+Te0/0/0/8          up          up          <*> FED_TIGR6-CLOUD-CFD-vdc2-A1_SXPXX_PO5
+Te0/0/0/9          up          up          <*> RVP_L2DCI_TIGR6-CLOUD-OTV-vdc3-A1_S2P9
+Te0/0/0/10         up          up          <*> TigRtrPciDss-p1_S1P52
+Te0/0/0/11         up          up          <*> FED_TIGR4RTRPCMS-P1_S1P1_10G
+Te0/0/0/12         up          up          <*> FED_TIGR6-CLOUD-CFD-vdc2-A1_SXPXX_PO5
+Te0/0/0/18         up          up          <> TIGR4-OTV-INT-01-vdc2_Eth1/48
+Te0/0/1/0          up          up          CIP_RIX->NSA-ZONES_PNSATIGFW12_Port1
+Te0/0/1/1          up          up          <*>BBN_TIGCFDR4-02_S2P8_10G
+Te0/0/1/2          up          up          CIP_NSA-ZONES->RIX_PNSATIGFW12_Port2
+Te0/0/1/3          up          up          CIP_RIX->HNSA-ZONES_HNSATIGFW12_Port1
+Te0/0/1/4          up          up          HNSA-ZONES_HNSATIGFW12->RIX-ZONES_HNSATIGFW12_Port2
+Te0/0/1/5          up          up          <> TigRtrPacRix-p1_Eth1/1
+Te0/0/1/6          up          up          <*> BBN_TIGR4-BIP-CFD-A1_Eth1/46
+Te0/0/1/7          up          up          <*> BBN_TIGR4-BIP-CFD-A1_Eth1/47
+Te0/0/1/8          up          up          <*> <VRF>_TIGR4-SANA-CFD-A1_eth1/12
+Te0/0/1/12         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/13         up          up          RVP_SSA_PRD-To-RIX_IPS
+Te0/0/1/14         down        down        
+Te0/0/1/15         down        down        
+Te0/0/1/18         up          up          <> TIGR4-OTV-INT-01-vdc2_Eth6/48
+Te0/1/0/0          up          up          <*>P1|10G|-->TIG-D7Te0/1/0/0
+Te0/1/0/1          up          up          <*>P1|10G|-->TIG-D7Te0/1/0/1
+Te0/1/0/4          up          up          <*> FED_RIX_TIGR4-WRT-N5K-H1_S2P0
+Te0/1/0/5          up          up          <*> FED_RIX_TIGR4-WRT-N5K-P2_S2P0_10G
+Te0/1/0/6          up          up          Tigr4-Heb-p2<>Eth1/3
+Gi0/6/0/0          up          up          <*> FED_RIX_TigRtrIntRixR4-h1_G2/0/0
+Gi0/6/0/1          up          up          <*>FED_MAG-A10_S6P8_COLT/PAR/JEV/LE-205499_200M
+Gi0/6/0/2          down        down        FED_PIX_SAN-DEF-C2_S1P3_1G_COMPLETEL_SOCIET_L2L_6A8E
+Gi0/6/0/3          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P9_1G
+Gi0/6/0/4          down        down        PIX_SAN-TIG-DEF_ECLIPSE-1_S1P10_1G
+Gi0/6/0/5          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P11_1G
+Gi0/6/0/6          down        down        PIX_SAN-TIG-DEF_ECLIPSE-2_S1P12_1G
+Gi0/6/0/7          up          up          <*>BBN_TIGCFDR4-02-PRC-CAZA_S7P6_1G
+Gi0/6/0/8          up          up          <*> FED_TIG-R009_Gi0/2/0_1G
+Gi0/6/0/9          up          up          <*>FED_SQY-F10_S6P7_COLT_VRS/JEV/LE-204892_400M
+Gi0/6/0/10         up          up          <*> PIX_RLANTIG02_Gi0/0
+Gi0/6/1/0          up          up          <*> FED_TIG-D20_S1P20_1G
+Gi0/6/1/1          up          up          <*> FED_TIG-D20_S1P21_1G
+Gi0/6/1/2          up          up          <*> FED_RIX_TigRtrIntRixR4-p2_G2/0/0
+Gi0/6/1/3          up          up          <*> TIGR6K-VIAP-RTR-A2_Eth1/1
+Gi0/6/1/4          up          up          <> TIG-T10 /// Interco CE- PE
+Gi0/7/0/0          up          up          <*> FW_PASSUFW12_Port17
+Gi0/7/0/1          up          up          <*> FW_PASSUFW12_Port25
+Gi0/7/0/2          up          up          <*>FED_TIGR4-ASSU-N7K-A1_S3P1
+Gi0/7/0/3          up          up          <*> PIX_RDS_SYSLOG-FW_PNSATIGFW12-Aux_1G
+Gi0/7/0/4          up          up          <*> PIX_RIX_FRANFINANCE_1661_100M
+Gi0/7/0/5          up          up          <*> PIX_RVP-GIMS_TIGERY_1669_1G
+Gi0/7/0/6          up          up          <*>FED_ TIGR4-ALD-CFD-01_S1P16
+Gi0/7/0/9          up          up          <*>FED_ANJ-A20_S6P9_COLT_PAR/JEV/LE-205031_200M
+Gi0/7/0/10         up          up          <*> PIX_SGEF_CE_SGEF_TIGERY
+Gi0/7/0/11         up          up          <*> TIGSWIOOBR4-01_S0P24_1G
+Gi0/7/0/13         up          up          <*>FED_RIH-A20_S6P9_COLT_LIL/JEV/LE-204823_100M
+Gi0/7/0/14         up          up          <*>FED_SCH-A10_S6P1_COLT_SXB/JEV/LE-204969_200M
+Gi0/7/0/16         up          up          <*>FED_AUB-A10_S5P3_COLT_MRS/JEV/LE-204895_200M
+Gi0/7/0/17         up          up          <*> Interco_Vers_TigRtrSgc-p1
+Gi0/7/0/18         up          up          <*>FED_COL-A01_Gi0/1_COLT_JEV/XPS/LE-155885_100M
+Gi0/7/0/19         up          up          <*>Â FED_PRO-MCI10_S0P2_4M_OBS_0037FZA3
+Gi0/7/1/0          up          up          <*>FED_CAP-A10_S6P9_COLT_PAR/JEV/LE-204263_200M
+Gi0/7/1/1          up          up          <*>FED_HAU-A10_S6P9_COLT_PAR/JEV/LE-204474_200M
+Gi0/7/1/3          up          up          <*> PIX_RDS_RTE-HVA-BUISG_1668_100M
+Gi0/7/1/4          up          up          <*>FED_HAU-B10_S5P9_SFR_PAR/JEV/LE-205428_200M
+Gi0/7/1/6          up          up          <*> FW_PASSUFW12_Port18
+Gi0/7/1/7          up          up          
+Gi0/7/1/8          up          up          <*> FW_PASSUFW12_Port26
+Gi0/7/1/9          up          up          <*> FW_PASSUFW12_Port27
+Gi0/7/1/10         up          up          <*> FW_PRDSFW02_Inside_Port3_PO7
+Gi0/7/1/11         up          up          <*> FW_PRDSFW02_Inside_Port4_PO7
+Gi0/7/1/12         up          up          <*> FW_PRDSFW02_Outside_Port5_PO6
+Gi0/7/1/13         up          up          <*> FW_PRDSFW02_Outside_Port6_PO6
+Gi0/7/1/17         up          up          <*>RVP_SGF_TIGR4-CGA-ASR-01_Gi0/0/1
+
+
+Fri Nov 16 15:56:29.208 MET
+Building configuration...
+hostname DC2-B02
+
+Fri Nov 16 15:56:30.811 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          P1|20G|-->DC2-B01Bundle-Ether1
+BE4                up          up          P1|20G|-->TIG-D02Bundle-Ether4
+BE10               up          up          P1|20G|-->ORI-P01Bundle-Ether10
+BE33               down        down        P1|20G|-->DC2-B2_BE33
+Te0/0/0/0          up          up          <*>P1|10G|-->DC2-B01Ten2/1
+Te0/0/0/1          up          up          <*>P1|10G|-->DC2-B01Ten1/1
+Te0/0/0/2          up          up          <*>P1|10G|OBS|VV833951|-->TIG-D02Ten4/6
+Te0/0/0/3          up          up          <*>P1|10G|OBS|VV833928|-->TIG-D02Ten3/5
+Te0/0/0/4          up          up          <*>P1|10G|OBS|VV737278|-->SC2-A02Te0/0/0/4
+Te0/0/0/5          up          up          <*>P1|10G|OBS|VV737280|-->ORI-P01Ten1/5
+Te0/0/0/6          up          up          <*>P1|10G|OBS|VV808395|-->ORI-P01Ten3/5
+Te0/0/0/10         up          up          <*>P1|10G|-->DC2-B2_Te0/0/0/0
+Te0/0/0/11         up          up          <*>P1|10G|-->DC2-B2_Te0/0/0/1
+Te0/0/0/12         up          up          <*>P1|10G|-->DC2-B2_Te0/0/0/2
+Te0/0/0/13         up          up          <*>P1|10G|-->DC2-B2_Te0/0/0/3
+Te0/0/0/15         up          up          <*>FED_VDF-B2_S2P2_SFR_D8580-00076-001|D8580-00075-001_10G
+Te0/0/0/18         up          up          DC2A4-Probe-A01_IF3
+Te0/0/0/19         up          up          <*> P1|10G|-->DC2-B0-Te0/0/0/0
+Hu0/4/0/0          up          up          FED_DUB-B01_HundredGig_0/4/0/0_100G
+Hu0/4/0/5          up          up          FED_DC2-B2_HundredGig_0/5/0/0_100G
+Hu0/4/0/6          up          up          <*>P1|100G|-->DUB-B2_HundredGig_0/5/0/0
+Hu0/4/0/7          up          up          <*>P1_DC5-B2_Hu0/5/0/0_100G
+
+
+Fri Nov 16 15:56:38.736 MET
+Building configuration...
+hostname SC2-A02
+
+Fri Nov 16 15:56:40.337 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                down        down        <*>P1|20G|-->SC2-A01_Bundle-Ether1
+BE10               up          up          <*>P1|20G|-->TIG-D02_Bundle-Ether10
+Te0/0/0/2          up          up          <*>P1|10G|OBS|VV738063|-->TIG-D02_Ten1/6
+Te0/0/0/3          up          up          <*>P1|10G|OBS|VV873100|-->TIG-D02_Ten2/5
+Te0/0/0/4          up          up          <*>P1|10G|OBS|VV737278|-->DC2-B02_Te0/0/0/4
+Te0/0/0/15         up          up          <*>P1|10G|-->SEC-B2_Ten4/1
+Hu0/4/0/0          up          up          <*>P1|100G|-->SC2-A01_HundredGig_0/4/0/0
+Hu0/4/0/7          up          up          <*>P1|100G|-->SC2-A02_HundredGig_0/5/0/0
+
+
+Fri Nov 16 15:56:48.289 MET
+Building configuration...
+hostname SC2-A01
+
+Fri Nov 16 15:56:49.697 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                down        down        <*>P1|20G|-->SC2-A02Bundle-Ether1
+BE3                down        down        <*>P1|20G|-->SC2-A1 BUNDLE-ETHER3
+BE10               up          up          <*>P1|20G|-->TIG-D01Bundle-Ether10
+Te0/0/0/2          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUIH|-->TIG-D01_Te0/0/0/5
+Te0/0/0/3          up          up          <*>P1|10G|COLT|LE-224586|-->TIG-D01_Te0/0/0/6
+Te0/0/0/4          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUGY|-->DC2-B01Ten2/6
+Te0/0/0/12         up          up          <*>P1|10G|-->SEC-B1Ten2/1
+Te0/0/0/13         up          up          <*>P1|10G|-->SC2-A1TenGigE0/0/0/0
+Te0/0/0/14         up          up          <*>P1|10G|-->SC2-A1TenGigE0/0/0/1
+Gi0/0/1/0          up          up          <*>P1|1G|-->SC2-A0 Gig1/1
+Gi0/0/1/1          up          up          <*>FED_ORL-C1_S1P46_SFR_0005802963|0005802589_G1
+Hu0/4/0/0          up          up          <*>P1|100G|-->SC2-A02_HundredGig_0/4/0/0
+Hu0/4/0/2          up          up          <*>P1_DUB-B01_Hu0/4/0/2_INTEROUTE_SGSA0/100GbWL/438932_100G
+Hu0/4/0/3          up          up          <*>P1_PAN-D01_Hu0/4/0/2_INTEROUTE_SGSA0/100GbWL/438935_100G
+Hu0/4/0/7          up          up          <*>P1|100G|-->SC2-A1_HundredGig_0/5/0/0
+
+
+Fri Nov 16 15:56:57.543 MET
+Building configuration...
+hostname DUB-B01
+
+Fri Nov 16 15:56:58.939 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Gi0/0/1/2          up          up          <*> admin temporaire
+Hu0/4/0/0          up          up          <*>P1|100G|-->DC2-B02_Hu_0/4/0/0
+Hu0/4/0/1          up          up          <*>P1_PAN-D01_HU_0/4/0/1_INTEROUTE_SGSA0/100GbWL/438924_100G
+Hu0/4/0/2          up          up          <*>P1_SC2-A01_Hu_0/4/0/2_INTEROUTE_SGSA0/100GbWL/438932_100G 
+Hu0/4/0/5          up          up          <*> DC2-B1_Hu_0/5/0/0
+Hu0/4/0/6          up          up          <*> DUB-B1_Hu_0/5/0/0
+Hu0/4/0/7          up          up          <*>P1_DC5-B1_Hu0/5/0/0_100G
+
+
+Fri Nov 16 15:57:06.783 MET
+Building configuration...
+hostname DUB-B1
+
+Fri Nov 16 15:57:08.380 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/0          up          up          <*>FED_ASU-N7K-ORL-ALX-2003-MOTV_Eth1/9_OBS_VV893912_10G
+Hu0/4/0/0          up          up          P1|100G|-->DUB-B2_Hu0/4/0/0
+Hu0/4/0/2          up          up          FED_ASU-SPN-DB2-COM-1001_HundredGig_1/64_100G
+Hu0/4/0/3          up          up          FED_ASU-SPN-DB2-COM-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DB2-COM-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DB2-COM-0201_HundredGig_1/1_100G
+Hu0/5/0/0          up          up          <*> DUB-B01_Hu0/4/0/6
+Gi0/7/0/0          up          up          <*> admin temporaire
+
+
+Fri Nov 16 15:57:16.225 MET
+Building configuration...
+hostname DUB-B2
+
+Fri Nov 16 15:57:17.831 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/0          up          up          <*>FED_ASU-N7K-DB2-B2D-2002-MOTV_Eth2/9_10G
+Hu0/4/0/0          up          up          P1|100G|-->DUB-B1_Hu0/4/0/0
+Hu0/4/0/2          up          up          FED_ASU-SPN-DB2-COM-1001_HundredGig_1/64_100G
+Hu0/4/0/3          up          up          FED_ASU-SPN-DB2-COM-1002_HundredGig_1/64_100G
+Hu0/4/0/4          up          up          FED_ASU-SPN-DB2-COM-1003_HundredGig_1/64_100G
+Hu0/4/0/5          up          up          FED_ASU-BRD-DB2-COM-0201_HundredGig_1/1_100G
+Hu0/5/0/0          up          up          P1|100G|-->DC2-B02_Hu0/4/0/6
+Gi0/7/0/0          up          up          <*> admin temporaire
+
+
+Fri Nov 16 08:55:45.289 MET
+Building configuration...
+hostname PAN-D1
+
+Fri Nov 16 08:55:47.094 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE10               down        down        <*>FED_PANDH15-SANA-CLS-A1_Eth1/12_10G
+Hu0/4/0/0          up          up          <*>P1_PAN-D2_Hu0/4/0/0_100G
+Hu0/4/0/2          up          up          <*>FED_PLT-SPN-PAN-DH15-1001_Eth1/36_100G
+Hu0/4/0/3          up          up          <*>FED_PLT-SPN-PAN-DH15-1002_Eth1/36_100G
+Hu0/4/0/4          up          up          <*>FED_PLT-SPN-PAN-DH15-1003_Eth1/36_100G
+Hu0/4/0/5          up          up          <*>FED_PLT-BRD-PAN-DH15-0101_Eth1/1_100G
+Hu0/5/0/0          up          up          <*>P1_PAN-D01_Hu0/4/0/5_100G
+
+
+Fri Nov 16 15:57:35.159 MET
+Building configuration...
+hostname PAN-D01
+
+Fri Nov 16 15:57:36.566 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Hu0/4/0/0          up          up          <*>P1_PAN-D02_Hu0/4/0/0_100G
+Hu0/4/0/1          up          up          <*>P1_DUB-B01_Hu0/4/0/1_INTEROUTE_SGSA0/100GbWL/438924_100G
+Hu0/4/0/2          up          up          <*>P1_SC2-A01_Hu0/4/0/3_INTEROUTE_SGSA0/100GbWL/438935_100G
+Hu0/4/0/5          up          up          <*>P1_PAN-D1_Hu0/5/0/0_100G
+
+
+Fri Nov 16 15:57:44.403 MET
+Building configuration...
+hostname PAN-D2
+
+Fri Nov 16 15:57:46.212 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE10               up          up          <*>FED_PANDH15-SANA-CFD-A2_Eth1/12_10G
+Te0/0/0/0          up          up          <*>FED_PANDH15-SANA-CFD-A2_Eth1/12_10G
+Hu0/4/0/0          up          up          <*>P1_PAN-D1_Hu0/4/0/0_100G
+Hu0/4/0/2          up          up          <*>FED_PLT-SPN-PAN-DH15-1001_Eth2/36_100G
+Hu0/4/0/3          up          up          <*>FED_PLT-SPN-PAN-DH15-1002_Eth2/36_100G
+Hu0/4/0/4          up          up          <*>FED_PLT-SPN-PAN-DH15-1003_Eth2/36_100G
+Hu0/5/0/0          up          up          <*>P1_PAN-D01_Hu0/4/0/5_100G
+
+
+Fri Nov 16 15:57:54.061 MET
+Building configuration...
+hostname PAN-D02
+
+Fri Nov 16 15:57:55.474 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Hu0/4/0/0          up          up          <*>P1_PAN-D01_Hu0/4/0/0_100G
+Hu0/4/0/2          down        down        <*>P1_SC2-A02_Hu0/4/0/3_100G
+Hu0/4/0/5          up          up          <*>P1_PAN-D2_Hu0/5/0/0_100G
+
+
+Fri Nov 16 15:58:02.547 MET
+Building configuration...
+hostname ORI-A0
+
+Fri Nov 16 15:58:03.741 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Te0/0/0/0          up          up          <*> P1|1G|-->ORI-A01-Te0/0/0/19 
+
+
+Fri Nov 16 15:58:11.406 MET
+Building configuration...
+hostname ORI-A01
+
+Fri Nov 16 15:58:12.817 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->ORI-P01-Bundle-Ether1
+BE2                up          up          <*> P1|20G|-->ORI-C1-Bundle-Ether2
+BE5                up          up          <*> P1|20G|-->TIG-D01-Bundle-Ether5
+BE10               up          up          <*> P1|20G|-->DC2-B01-Bundle-Ether10
+BE11               up          up          <*> P1|20G|-->ORI-A1-Bundle-Ether11
+BE33               up          up          <*> P1|20G|-->ORI-C1 Bundle-Ether33
+Te0/0/0/0          up          up          <*> P1|10G|-->ORI-P01-Ten1/1
+Te0/0/0/1          up          up          <*> P1|10G|-->ORI-P01-Ten2/1
+Te0/0/0/2          up          up          <*> P1|10G|SFR|SOCIET_S2S_VUIS|-->TIG-D01_Te0/0/0/2
+Te0/0/0/3          up          up          <*> P1|10G|SFR|SOCIET_S2S_VUJ7|-->TIG-D01_Te0/0/0/3
+Te0/0/0/4          up          up          <*> P1|10G|SFR|SOCIET_S2S_VUHP|-->DC2-B01-Ten1/5
+Te0/0/0/5          up          up          <*> P1|10G|SFR|SOCIET_S2S_7IXT|-->DC2-B01-Ten3/5
+Te0/0/0/6          up          up          <*> P1|10G|SFR|SOCIET_S2S_VUHU|-->DEF-B01-Ten2/5
+Te0/0/0/7          up          up          <*> P1|10G|-->ORI-C1 Te0/0/0/0
+Te0/0/0/8          up          up          <*> P1|10G|-->ORI-C1 Te0/0/0/1
+Te0/0/0/10         up          up          <*> P1|10G|-->ORI-C1-Ten3/6
+Te0/0/0/11         up          up          <*> P1|10G|-->ORI-C1-Ten7/5
+Te0/0/0/12         up          up          <*> P1|10G|-->ORI-A1-Ten2/3
+Te0/0/0/13         up          up          <*> P1|10G|-->ORI-A1-Ten3/1
+Te0/0/0/19         up          up          <*> P1|1G|-->ORI-A0-Te0/0/0/0
+
+
+Fri Nov 16 15:58:20.664 MET
+Building configuration...
+hostname ORI-P01
+
+Fri Nov 16 15:58:22.074 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*> P1|20G|-->ORI-A01-Bundle-Ether1 
+BE2                up          up          <*> P1|20G|-->ORI-C2-Bundle-Ether2
+BE3                up          up          <*> P1|2G|-->NAN-A2-Bundle-Ether3
+BE5                up          up          <*> P1|20G|-->TIG-D02-Bundle-Ether5
+BE10               up          up          <*> P1|20G|-->DC2-B02-Bundle-Ether10
+BE11               up          up          <*> P1|10G|-->ORI-A2-Bundle-Ether11
+BE33               up          up          <*> P1|20G|-->ORI-C1 Bundle-Ether33
+Te0/0/0/0          up          up          <*> P1|10G|-->ORI-A01-Te0/0/0/0
+Te0/0/0/1          up          up          <*> P1|10G|-->ORI-A01-Te0/0/0/1
+Te0/0/0/2          up          up          <*> P1|10G|OBS|VV737201|-->TIG-D02-Te0/0/0/2
+Te0/0/0/3          up          up          <*> P1|10G|OBS|VV737205|-->TIG-D02-Te0/0/0/3
+Te0/0/0/4          up          up          <*> P1|10G|OBS|VV737280|-->DC2-B02-Te0/0/0/5
+Te0/0/0/5          up          up          <*> P1|10G|OBS|VV808395|-->DC2-B02-Te0/0/0/6
+Te0/0/0/6          up          up          <*> P1|10G|OBS|VV737145|-->DEF-A01-Te2/5
+Te0/0/0/7          up          up          <*> P1|10G|-->ORI-C2 Te0/0/0/0
+Te0/0/0/8          up          up          <*> P1|10G|-->ORI-C2 Te0/0/0/1
+Te0/0/0/10         up          up          <*> P1|10G|-->ORI-C2-Ten4/1
+Te0/0/0/11         up          up          <*> P1|10G|-->ORI-C2-Ten7/5
+Te0/0/0/12         up          up          <*> P1|10G|-->ORI-A2-Ten3/2
+Te0/0/0/13         up          up          <*> P1|10G|-->ORI-A2-Ten3/1
+Gi0/0/1/0          up          up          <*> P1|1G|OBS|0037WAM5(0037WAP7)|-->NAN-A2-Gig1/7
+Gi0/0/1/1          up          up          <*> P1|1G|OBS|0037WAN4(0037WAR4)|-->NAN-A2-Gig1/6
+
+
+Fri Nov 16 15:58:29.826 MET
+Building configuration...
+hostname TIG-D01
+
+Fri Nov 16 15:58:31.230 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE1                up          up          <*>P1|20G|-->TIG-D02Bundle-Ether1
+BE3                up          up          <*>P1|20G|-->TIG-D5_Bundle-Ether3
+BE4                up          up          <*>P1|20G|-->DC2-B01Bundle-Ether4
+BE5                up          up          <*>P1|20G|-->ORI-A01-Bundle-Ether5
+BE10               up          up          <*>P1|20G|-->SC2-A01Bundle-Ether10
+BE33               up          up          <*>BBN_TIG-D7_Po33_20G
+Te0/0/0/0          up          up          <*>P1|10G|-->TIG-D02-Te0/0/0/0
+Te0/0/0/1          up          up          <*>P1|10G|-->TIG-D02-Te0/0/0/1
+Te0/0/0/2          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUIS|-->ORI-A01-Te0/0/0/2
+Te0/0/0/3          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUJ7|-->ORI-A01-Te0/0/0/3
+Te0/0/0/4          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUHX|-->DEF-B01Ten1/5
+Te0/0/0/5          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUIH|-->SC2-A01_Te0/0/0/2
+Te0/0/0/6          up          up          <*>P1|10G|COLT|LE-224586|-->SC2-A01_Te0/0/0/3
+Te0/0/0/7          up          up          <*>P1|10G|SFR|SOCIET_S2S_VUIQ|-->DC2-B01Ten2/5
+Te0/0/0/8          up          up          <*>P1|10G|SFR|SOCIET_S2S_9UMT|-->DC2-B01Ten3/6
+Te0/0/0/9          up          up          <*>BBN_TIG-D7_Te0/0/0/0_10G
+Te0/0/0/10         up          up          <*>BBN_TIG-D7_Te0/0/0/1_10G
+Te0/0/0/11         up          up          <*>FED_VDF-J2_S2P2_COLT_QFC/JEV/LE-204891_10G
+Te0/0/0/12         up          up          <*>P1|10G|-->TIG-D5_TenGigE0/0/0/0
+Te0/0/0/13         up          up          <*>P1|10G|-->TIG-D5_TenGigE0/0/0/1
+
+
+Fri Nov 16 15:58:38.890 MET
+Building configuration...
+hostname ORI-C1
+
+Fri Nov 16 15:58:40.891 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE3                up          up          <*>P1|20G|-->ORI-C2-Bundle-Ether3
+BE10               up          up          <*>-> PROPANE
+BE25               up          up          <*>FED_ MCLUSTER-ORI04-01_Po25_2G
+BE30               up          up          <*>FED_ MCLUSTER-ORI04-02_Po30_2G
+BE33               up          up          <*>P1|20G|-->ORI-A01-Bundle-Ether33
+BE46               up          up          <*>BBN_ORICFDPROD-C-01_Po46
+BE48               up          up          <*>rtr-iaptest-ori03
+BE50               up          up          <*>PIX_ORI-PAD-INT-A1
+Te0/0/0/0          up          up          <*>P1|10G|-->ORI-A01-Te0/0/0/6
+Te0/0/0/1          up          up          <*>P1|10G|-->ORI-A01-Te0/0/0/7
+Te0/0/0/4          up          up          <*>ORI-PAD-INT-A1_OVH-S1P1
+Te0/0/0/5          up          up          <*>ORI-PAD-INT-A1_OVH-S1P2
+Te0/0/0/6          up          up          <*>BBN_ORICFDDEV-P-01_Te1/1
+Te0/0/0/7          up          up          <*>prod-ori04-01
+Te0/0/0/8          up          up          <*>BBN_ORICFDPROD2-P-01_Te1/1
+Te0/0/0/9          up          up          <*>RLANORI01_Te3/5_VIA_BYPASS
+Te0/0/0/10         up          up          <*>RLANORI01 T1/4
+Te0/0/0/11         up          up          <*>rtr-iap-ori03-via-ORITAP-C-01
+Te0/0/1/0          up          up          <*>P1|10G|-->ORI-C2 Te0/0/1/0
+Te0/0/1/1          up          up          <*>P1|10G|-->ORI-C2 Te0/0/1/1
+Te0/0/1/4          up          up          <*>CIP_RIX->NSA-ZONES_PNSAORIFW11_Port1
+Te0/0/1/5          up          up          <*>CIP_NSA-ZONES->RIX_PNSAORIFW11_Port2
+Te0/0/1/6          up          up          <*>FED_RVP_ITEC_AMIDALA_Te3/1_10G
+Te0/0/1/7          up          up          <*>PIX_RIX_SGCIB_IPS_10G
+Te0/0/1/8          up          up          <*>PIX_SGCIB_RIX_IPS_10G
+Te0/0/1/9          up          up          " Reserved fo NextGen - Do not use "$
+Te0/0/1/10         up          up          <*>FED_RVP_SGF_ORIPO-SGF-CFD-01_Eth1/46_10G
+Gi0/7/0/0          up          up          <*>FED_ MCLUSTER-ORI04-01_S3P1_2G
+Gi0/7/0/1          up          up          <*>FED_ MCLUSTER-ORI04-01_S3P1_2G
+Gi0/7/0/2          up          up          <*>FED_ MCLUSTER-ORI04-02_S3P3_2G
+Gi0/7/0/3          up          up          <*>FED_ MCLUSTER-ORI04-02_S3P1_2G
+Gi0/7/0/4          up          up          <*>ORISWIOOBCA-01_S0P24_1G
+Gi0/7/0/5          up          up          <*>PROPANE
+Gi0/7/0/6          up          up          <*>rtr-iaptest-ori03
+Gi0/7/0/7          up          up          <*>rtr-iaptest-ori03
+Gi0/7/0/8          up          up          <*>PIX_RDS_SYSLOG-FW_PNSAORIFW11-Aux_1G
+Gi0/7/1/1          up          up          <*> FED_RVP_ITEC_TSUNAMI_S1P2_1G
+Gi0/7/1/2          up          up          <*>PIX_SGCF_CE_BT_SGCIB_ORION
+Gi0/7/1/3          up          up          <*>PIX_SGEF_CE_BT_SGCIB_ORION
+
+
+Fri Nov 16 15:58:48.661 MET
+Building configuration...
+hostname ORI-C2
+
+Fri Nov 16 15:58:50.663 MET
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE3                up          up          <*>P1|20G|-->ORI-C1-Bundle-Ether3
+BE10               up          up          <*>->PROPANE
+BE33               up          up          <*>P1|20G|-->ORI-P01-Bundle-Ether33
+BE35               up          up          <*>FED_ MCLUSTER-ORI04-01_Po35_2G
+BE40               up          up          <*>FED_ MCLUSTER-ORI04-02_Po40_2G
+BE46               down        down        <*>BBN_ORICFDPROD-C-02_Po46
+BE48               up          up          <*>rtr-iaptest-ori04
+BE50               up          up          <*>PIX_ORI-PAD-INT-A2
+Te0/0/0/0          up          up          <*>P1|10G|-->ORI-P01-Te0/0/0/11
+Te0/0/0/1          up          up          <*>P1|10G|-->ORI-P01-Te0/0/0/10
+Te0/0/0/4          up          up          <*>ORI-PAD-INT-A2_OVH-S1P1
+Te0/0/0/5          up          up          <*>ORI-PAD-INT-A2_OVH-S1P2
+Te0/0/0/6          up          up          <*>BBN_ORICFDDEV-P-02_Te1/2
+Te0/0/0/9          up          up          <*>RLANORI101_Te2/4_VIA_BYPASS
+Te0/0/0/10         up          up          <*>RLANORI101-T2/1
+Te0/0/0/11         up          up          <*>rtr-iap-ori04-via-ORITAP-P-01
+Te0/0/1/0          up          up          <*>P1|10G|-->ORI-C1-Te0/0/1/0
+Te0/0/1/1          up          up          <*>P1|10G|-->ORI-C1-Te0/0/1/1
+Te0/0/1/4          up          up          <*>CIP_RIX->NSA-ZONES_PNSAORIFW12_Port1
+Te0/0/1/5          up          up          <*>CIP_NSA-ZONES->RIX_PNSAORIFW12_Port2
+Te0/0/1/6          up          up          <*>FED_RVP_ITEC_YODA_Te3/2_10G
+Te0/0/1/7          up          up          <*>PIX_RIX_SGCIB_IPS_10G
+Te0/0/1/8          up          up          <*>PIX_SGCIB_RIX_IPS_10G
+Te0/0/1/9          up          up          <*>ORIMATRIXG-C-01_X13
+Te0/0/1/10         up          up          <*>FED_RVP_SGF_ORIPO-SGF-CFD-02_Eth1/46_10G
+Gi0/7/0/0          up          up          <*>FED_ MCLUSTER-ORI04-01_S3P2_2G
+Gi0/7/0/1          up          up          <*>FED_ MCLUSTER-ORI04-02_S3P4_2G
+Gi0/7/0/2          up          up          <*>FED_ MCLUSTER-ORI04-02_S3P2_2G
+Gi0/7/0/3          up          up          <*>FED_ MCLUSTER-ORI04-02_S3P4_2G
+Gi0/7/0/4          up          up          <*>ORISWIOOBPO-01_S0P24_1G
+Gi0/7/0/5          up          up          <*>PROPANE
+Gi0/7/0/6          up          up          <*>rtr-iaptest-ori04
+Gi0/7/0/7          up          up          <*>rtr-iaptest-ori04
+Gi0/7/0/8          up          up          <*>PIX_RDS_SYSLOG-FW_PNSAORIFW12-Aux_1G
+Gi0/7/1/0          up          up          <*>FED_ORI-C10_S0P1_1G
+Gi0/7/1/1          up          up          <*>FED_PDF-P10_S1P10_T_1G_OBS_0025UEG8
+
+hostname DEF-B01
+Interface                      Status         Protocol Description
+Te1/1                          up             up       <*>P1|10G|-->DEF-A01_Ten1/1
+Te1/2                          up             up       <*>P1|10G|-->DEF-B1Ten3/5
+Te1/5                          up             up       <*>P1|10G|SFR|SOCIET_S2S_VUHX|-->TIG-D01_Te0/0/0/4
+Te2/1                          up             up       <*>P1|10G|-->DEF-A01_Ten2/1
+Te2/2                          up             up       <*>P1|10G|-->DEF-C2_Te0/0/0/0
+Te2/5                          up             up       <*>P1|10G|SFR|SOCIET_S2S_VUHU|-->ORI-A01-Te0/0/0/6
+Te2/6                          up             up       <*>P1|10G|-->DEF-B1Ten3/6
+Po1                            up             up       <*>P1|20G|-->DEF-A01_Port-channel1
+Po3                            up             up       <*>P1|20G|-->DEF-B1Port-channel3
+hostname DEF-A01
+Interface                      Status         Protocol Description
+Te1/1                          up             up       <*>P1|10G|-->DEF-B01_Ten1/1
+Te1/2                          up             up       <*>P1|10G|-->DEF-B2Ten3/5
+Te1/5                          up             up       <*>P1|10G|OBS|VV737282|-->TIG-D02Ten1/5
+Te2/1                          up             up       <*>P1|10G|-->DEF-B01_Ten2/1
+Te2/2                          up             up       <*>P1|10G|-->DEF-A2_Ten0/0/0/0
+Te2/5                          up             up       <*>P1|10G|OBS|VV737145|->ORI-P01Te2/5
+Te2/6                          up             up       <*>P1|10G|-->DEF-B2Ten3/6
+Po1                            up             up       <*>P1|20G|-->DEF-B01_Port-channel1
+Po3                            up             up       <*>P1|20G|-->DEF-B2Port-channel3
+hostname DC2-B01
+Interface                      Status         Protocol Description
+Te1/1                          up             up       P1|10G|-->DC2-B02Te0/0/0/0
+Te1/5                          up             up       <*>P1|10G|SFR|SOCIET_S2S_VUHP|-->ORI-A01-Te0/0/0/4
+Te2/1                          up             up       P1|10G|-->DC2-B02Te0/0/0/1
+Te2/5                          up             up       <*> P1|10G|SFR|SOCIET_S2S_VUIQ|-->TIG-D01_TenGigE0/0/0/7
+Te2/6                          up             up       <*> P1|10G|SFR|SOCIET_S2S_VUGY|-->SC2-A01_Te0/0/0/4
+Te3/2                          up             up       <*> P1|10G|OBS|VV816142|-->DUN-U1Ten2/1
+Te3/5                          up             up       <*> P1|10G|SFR|SOCIET_S2S_7IXT|-->ORI-A01-Te0/0/0/5
+Te3/6                          up             up       <*> P1|10G|SFR|SOCIET_S2S_9UMT|-->TIG-D01_TenGigE0/0/0/8
+Te6/1                          up             up       <*> P1|10G|-->DC2-B1_Ten0/0/0/0
+Te6/2                          up             up       <*>  P1|10G|-->DC2-B1_Ten0/0/0/1
+Te6/5                          up             up       <*> P1|10G|-->DC2-B1_Ten0/0/0/2
+Te6/6                          up             up       <*> P1|10G|-->DC2-B1_Ten0/0/0/3
+Gi9/4                          up             up       <*> P1|1G|OBS|0037WAF4(0037WAG7)|-->NAN-A1Gig1/7
+Gi9/5                          up             up       <*> P1|1G|OBS|0037WAF6(0037WDM5)|-->NAN-A1Gig1/6
+Po1                            up             up       <*> P1|20G|-->DC2-B02Port-channel1
+Po3                            up             up       <*>  P1|2G|-->NAN-A1Port-channel3
+Po4                            up             up       <*> P1|20G|-->TIG-D01Port-channel4
+Po10                           up             up       <*> P1|20G|-->ORI-A01-Bundle-Ether10
+Po33                           up             up       <*> P1|20G|-->DC2-B1_BE33
+hostname DUN-T1
+Interface                      Status         Protocol Description
+Te2/1                          up             up       <*> P1|10G|COLT|QFC/JEV/LE-193899|-->TIG-D02 Ten3/2
+Te2/2                          up             up       <*> BBN_DUN-A10_S5P16_10G
+Te2/5                          up             up       <*> BBN_DUN-B10_S5P16_10G
+Te2/6                          up             up       <*> BBN_DUN-C10_S5P16_10G
+Te3/1                          up             up       <*> P1|10G|-->DUN-U1 Ten3/1
+Te3/2                          up             up       <*> BBN_DUN-D10_S5P16_10G
+Te3/5                          up             up       <*> BBN_DUN-E10_S5P16_10G
+Te3/6                          up             up       <*> BBN_DUN-T10_S5P16_10G
+Te4/1                          up             up       <*> P1|10G|-->DUN-U1 Ten4/1
+Te4/2                          up             up       <*> BBN_DUN-U10_S5P16_10G
+Te4/5                          up             up       <*> BBN_DUN-T11_S5P16_10G
+Gi8/1                          up             up       
+Gi8/2                          up             up       <*> BBN_DUN-T12
+Po1                            up             up       <*> P1|20G|-->DUN-U1 Port-channel1
+hostname DUN-U1
+Interface                      Status         Protocol Description
+Te2/1                          up             up       <*> P1|10G|OBS|VV816142|-->DC2-B01 Ten3/2
+Te2/2                          up             up       <*> BBN_DUN-A20_S5P16_10G
+Te2/5                          up             up       <*> BBN_DUN-B20_S5P16_10G
+Te2/6                          up             up       <*> BBN_DUN-C20_S5P16_10G
+Te3/1                          up             up       <*> P1|10G|-->DUN-T1 Ten3/1
+Te3/2                          up             up       <*> BBN_DUN-D20_S5P16_10G
+Te3/5                          up             up       <*> BBN_DUN-E20_S5P16_10G
+Te3/6                          up             up       <*> BBN_DUN-T20_S5P16_10G
+Te4/1                          up             up       <*> P1|10G|-->DUN-T1 Ten4/1
+Te4/2                          up             up       <*> BBN_DUN-U20_S5P16_10G
+Te4/5                          up             up       <*> BBN_DUN-U11_S5P16_10G
+Gi8/1                          up             up       
+Gi8/2                          up             up       <*> BBN_DUN-U12
+Po1                            up             up       <*> P1|20G|-->DUN-T1 Port-channel1
+hostname NAN-A1
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       <*> P1|1G|-->NAN-A2 Gig1/1
+Gi1/6                          up             up       <*> P1|1G|OBS|0037WAF6(0037WDM5)|-->DC2-B01 Gig9/5
+Gi1/7                          up             up       <*> P1|1G|OBS|0037WAF4(0037WAG7)|-->DC2-B01 Gig9/4
+Gi1/8                          up             up       <*> FED_NAN-A10_TGIG1-1-23_T_1G
+Gi1/9                          up             up       <> NANN56PIX-01-Eth1/1-1G
+Gi1/10                         up             up       <> NANN56PIX-01-Eth1/2-1G
+Gi1/11                         up             up       <*> BBN_MGMT_NAN-A13_Gi0/0
+Gi1/24                         up             up       <*> P1|1G|-->NAN-A2 Gig1/24
+Gi8/1                          up             up       <>FED_NANSWIOOBR1-01
+Po1                            up             up       <*> P1|2G|-->NAN-A2 Port-channel1
+Po3                            up             up       <*> P1|2G|-->DC2-B01 Port-channel3
+Po4                            up             up       <> NANN56PIX-01-Po4-2G
+hostname NAN-A2
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       <*> P1|1G|-->NAN-A1 Gig1/1
+Gi1/6                          up             up       <*> P1|1G|OBS|0037WAN4(0037WAR4)|-->ORI-P01 Gig9/5
+Gi1/7                          up             up       <*> P1|1G|OBS|0037WAM5(0037WAP7)|-->ORI-P01 Gig9/4
+Gi1/8                          up             up       <*> FED_NAN-A20_TGIG1-1-23_T_1G
+Gi1/9                          up             up       <> NANN56PIX-02-Eth1/1-1G
+Gi1/10                         up             up       <> NANN56PIX-02-Eth1/2-1G
+Gi1/24                         up             up       <*> P1|1G|NAN-A1 Gig1/24
+Gi8/1                          up             up       <>FED_NANSWIOOBR1-02
+Po1                            up             up       <*> P1|2G|NAN-A1 Port-channel1
+Po3                            up             up       <*> P1|2G|-->ORI-P01 Port-channel3
+Po4                            up             up       <> NANN56PIX-02-Po4-2G
+hostname ORI-A1
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       <> AQUINOOBAR1-01-Gi1/0/25
+Gi1/2                          up             up       <> AQUICFDILOR1-03_Gi5/1
+Gi1/3                          up             up       <*> BBN_ORI-A10_GIG0/0
+Gi1/4                          up             up       <> AQUIR1-WCELL-RTR-A2_Eth1/1
+Gi1/6                          up             up       <> AQUIR1-WCELL-RTR-A2_Eth1/2
+Gi1/14                         up             up       <*> AQUIR1-MKTOTV-CFD-vdc4-A1-Eth4/43
+Gi1/19                         up             up       <*> AQUIR1-MKTOTV-CFD-vdc4-A1-Eth3/43
+Gi1/22                         up             up       <*> AQUISWIDCWR1-01_Gi0/1_1G
+Te2/1                          up             up       <*> P1|10G|-->ORI-A2 Ten2/1
+Te2/2                          up             up       <> AQUIR1-MKTPROD-CFD-vdc2-A1_E3/1
+Te2/3                          up             up       <*> P1|10G|-->ORI-A01-Te0/0/0/12
+Te2/5                          up             up       <*> FED_AQUICFDZEUSR1-01_ETH1/1
+Te2/6                          up             up       <*> AQUIR1-MKTDEV-CFD-vdc3-A1_E3/27
+Te2/7                          up             up       <*> FED_MCLUSTER-AQUIVSSR1-01_Te1/4/1
+Te2/8                          up             up       <*> FED_MCLUSTER-AQUIVSSR1-02_Te2/4/1
+Te3/1                          up             up       <*> P1|10G|-->ORI-A01-Te0/0/0/13
+Te3/2                          up             up       <*> AQUIR1-MKTPROD-CFD-vdc2-A1_E4/4
+Te3/5                          up             up       <*> P1|10G|-->ORI-A2 Ten3/5
+Gi8/1                          up             up       <*>FED_AQUIDMZ-01_Gi0/1_1G
+Gi8/28                         up             up       <*> FED_ PRO-MCI10_S0P1_4M_COLT_PAR/XBT/LE-185081
+Po1                            up             up       <*> P1|20G|-->ORI-A2 Port-channel1
+Po10                           up             up       <> AQUIR1-WCELL-RTR-A2_PO10
+Po11                           up             up       <*> P1|20G|-->ORI-A01-Bundle-Ether11
+Po19                           up             up       <*> FED_MCLUSTER-AQUIVSSR1_Po19
+Po50                           up             up       <*>AQUIR1-MKTOTV-CFD-vdc4-A1-RVP_L2DCI
+Po130                          up             up       FED_AQUIR1-MKTPROD-CFD-vdc2-A1_PO5_20G
+Po135                          up             up       <*> PO AQUIR1-MKTDEV-CFD-vdc3-A1_vl3333
+hostname ORI-A2
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       <*> AQUISWIOOBAR1-02_Gi1/0/25
+Gi1/2                          up             up       <*> AQUICFDILOR1-03_Gi1/47
+Gi1/4                          up             up       <*> AQUIR1-WCELL-RTR-A1_Eth1/1
+Gi1/6                          up             up       <*> AQUIR1-WCELL-RTR-A1_Eth1/2
+Gi1/14                         up             up       <*> AQUIR1-MKTOTV-CFD-vdc4-A2-S1P1
+Gi1/19                         up             up       <*> AQUIR1-MKTOTV-CFD-vdc4-A2-S1P2
+Gi1/22                         up             up       <*> AQUISWIDCWR1-02_Gi0/1_1G
+Te2/1                          up             up       <*> P1|10G|--> ORI-A1 Ten2/1
+Te2/2                          up             up       <*> AQUIR1-MKTPROD-CFD-vdc2-A2_E3/1
+Te2/5                          up             up       <*> FED_AQUICFDZEUSR1-02_ETH1/1
+Te2/6                          up             up       <*> AQUIR1-MKTDEV-CFD-vdc3-A2_E3/27
+Te2/7                          up             up       <*> FED_MCLUSTER-AQUIVSSR1-01_Te1/4/2
+Te2/8                          up             up       <*> FED_MCLUSTER-AQUIVSSR1-02_Te2/4/2
+Te3/1                          up             up       <*> P1|10G|--> ORI-P01 Ten3/2
+Te3/2                          up             up       <*> P1|10G|--> ORI-P01 Ten1/6
+Te3/5                          up             up       <*> P1|10G|--> ORI-A1 Ten3/5
+Gi8/1                          up             up       <*>FED_AQUIDMZ-02_Gi0/1_1G
+Te9/2                          up             up       <*> AQUIR1-MKTPROD-CFD-vdc2-A2_E4/4
+Po1                            up             up       <*> P1|20G|-->ORI-A1Port-channel1
+Po10                           up             up       <*> AQUIR1-WCELL-RTR-A1_PO10
+Po11                           up             up       <*> P1|10G|-->ORI-P01Port-channel11
+Po20                           up             up       <*> FED_MCLUSTER-AQUIVSSR1_Po20
+Po50                           up             up       <*> AQUIR1-MKTOTV-CFD-vdc4-A2-RVP_L2DCI
+Po131                          up             up       FED_AQUIR1-MKTPROD-CFD-vdc2-A2_PO5_20G
+Po136                          up             up       <*> PO AQUIR1-MKTDEV-CFD-vdc3-A2_vl3334
+hostname ORL-A1
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       <> BBN_ORL-C20_S5P14_1G
+Gi1/2                          up             up       <> BBN_ORL-A11_S5P14_1G
+Gi1/4                          up             up       <*> DC_ORLEAN_ALEX
+Gi1/5                          up             up       <> BBN_ORLA-PIX-02
+Gi1/45                         up             up       <*> BBN_ORL-C01_S0P1_1G
+Gi1/46                         up             up       <*>FED_TIG-D02_S7P3_COLT_ORE/JEV/LE-204848_1G
+Gi1/47                         up             up       <> BBN_ORL-C1_S1P47_Po1
+Gi1/48                         up             up       <> BBN_ORL-C1_S1P48_Po1
+Po1                            up             up       <> BBN_ORL-C1_Po1_20G
+hostname ORL-C1
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       <*> <> BBN_ORL-C10_S5P14_1G
+Gi1/2                          up             up       <*> <> BBN_ORL-A11_S5P14_1G
+Gi1/4                          up             up       <*> DC_ORLEAN_ABC
+Gi1/5                          up             up       <*> <> BBN_ORLA-PIX-02
+Gi1/45                         up             up       <*> BBN_ORL-C01_S0P1_1G
+Gi1/46                         up             up       <*>FED_SC2-A01_S3P3_SFR_0005802589|0005802963_1G
+Gi1/47                         up             up       <*> <> BBN_ORL-C1_S1P47_Po1
+Gi1/48                         up             up       <*> <> BBN_ORL-C1_S1P48_Po1
+Po1                            up             up       <*> <> BBN_ORL-C1_Po1_20G
+hostname SEC-B1
+Interface                      Status         Protocol Description
+Gi1/2                          up             up       <*> BBN_SECHD2_0/1_1G
+Gi1/3                          up             up       <*> FED_RDS_SECHPDSWI014_S1P16_1G<>
+Gi1/4                          up             up       <*> FED_SEC-C10_Gi1/4_1G
+Te2/1                          up             up       <*> P1|10G|-->SC2-A01_Te0/0/0/12
+Te2/2                          up             up       <*> FED_SC1STX-CDN-CFD-VDC02_10G
+Te4/2                          up             up       <*> P1|10G|-->SEC-B2Ten4/2
+Te4/3                          up             up       <*> BBN_SEXCFDR1-01_S4P3_10G
+Gi8/1                          up             up       <*> SECSMCRTR001_Gi0/0/1
+hostname SEC-B2
+Interface                      Status         Protocol Description
+Gi1/3                          up             up       <*> FED_RDS_SECHPDSWI013_S1P16_1G<>
+Te4/1                          up             up       P1|10G|-->SC2-A02Te0/0/0/15
+Te4/2                          up             up       <*> P1|10G|-->SEC-B1Ten4/2
+Te4/3                          up             up       <*> BBN_CFD-2_S4P3_10G
+hostname VDF-B2
+Interface                      Status         Protocol Description
+Gi1/2                          up             up       <*> FWSM-FAILOVER_VDF-J2_T_1G
+Gi1/4                          up             up       <> FED_GMV-LAN-01_S1-P25
+Gi1/5                          up             up       <> FED_GMV-LAN-01_S1-P26
+Gi1/6                          up             up       <*> BBN_VDF-F12
+Gi1/7                          up             up       <*> FED_VDF-J20_S5P16_T_10G
+Gi1/9                          up             up       <*> FED_VDF-B20_S5P16_T_1G
+Gi1/10                         up             up       <*> FED_VDF-N21_S5P16_T_10G
+Gi1/13                         up             up       <*> FED_VDF-B12_S5P16_T_1G
+Gi1/14                         up             up       <*> BBN_HER-H10_G0/0 L2L0866942 / 0019DAE5
+Gi1/15                         up             up       <*> FED_MGT_VDF-P10_S6P8
+Gi1/16                         up             up       <*> FED_VDF-N20_S1P20_T_1G
+Gi1/17                         up             up       <*> FED_VDF-A10_S6P8_T_1G
+Gi1/18                         up             up       <*> FED_VDF-F10_S6P8_T_1G
+Gi1/19                         up             up       <*> FED_VDF-B10_S6P8_T_1G
+Gi1/20                         up             up       <*> FED_VDF-C10_S6P8_T_1G
+Gi1/21                         up             up       <*> FED_VDF-D10_S6P8_T_1G
+Gi1/22                         up             up       <*> FED_VDF-G10_S6P8_T_1G
+Gi1/23                         up             up       <*> FED_VDF-H10_S6P8_T_1G
+Gi1/24                         up             up       <*> FED_VDF-J10_S6P8_T_1G
+Te2/1                          up             up       <*> BBN_VDF-J2_S2P1_T_10G
+Te2/2                          up             up       <*>FED_DC2-B02_S2P2_SFR_D8580-00075-001|D8580-00076-001_10G
+Gi5/1                          up             up       <*> P1|1G|-->VDF-J2 Gig5/2
+Gi5/2                          up             up       <*> P1|1G|-->VDF-J2 Gig5/1
+Gi8/2                          up             up       FED_MON-A10_S0P1_100M
+Gi8/7                          up             up       <*> PIX_RIX_PRC-ASTER_264_100M
+Gi8/14                         up             up       <*> PIX_Routeur_PAM_100M
+Gi8/48                         up             up       <*> PIX_RIX_VDF-SLA-RIX_100M
+Po1                            up             up       <*> P1|2G|-->VDF-J2 Port-channel1
+Po6                            up             up       <> FED_GMV-LAN-01_P6-2G
+Po10                           up             up       <*> P1|10G|-->VDF-J2 Port-channel10
+hostname VDF-J2
+Interface                      Status         Protocol Description
+Gi1/2                          up             up       <*> FWSM-FAILOVER_VDF-B2_T_1G 
+Gi1/4                          up             up       <*> BBN_VDF-J12
+Gi1/6                          up             up       <*> BBN_Route-Explorer_VDF
+Gi1/7                          up             up       <*> FED_VDF-J10_S5P16_T_10G
+Gi1/9                          up             up       <*> FED_VDF-B11_S5P16_T_1G
+Gi1/10                         up             up       <*> FED_VDF-N11_S5P16_T_10G
+Gi1/15                         up             up       <*> FED_MGT_VDF-P10_S5P8 
+Gi1/16                         up             up       <*> FED_VDF-N10_S1P20_T_1G
+Gi1/17                         up             up       <*> FED_VDF-A10_S5P8_T_1G 
+Gi1/18                         up             up       <*> FED_VDF-F10_S5P8_T_1G
+Gi1/19                         up             up       <*> FED_VDF-B10_S5P8_T_1G 
+Gi1/20                         up             up       <*> FED_VDF-C10_S5P8_T_1G
+Gi1/21                         up             up       <*> FED_ VDF-D10_S5P8_T_1G
+Gi1/22                         up             up       <*> FED_ VDF-G10_S5P8_T_1G
+Gi1/23                         up             up       <*> FED_ VDF-H10_S5P8_T_1G
+Gi1/24                         up             up       <*> FED_VDF-J10_S5P8_T_1G
+Te2/1                          up             up       <*> BBN_VDF-B2_S2P1_T_10G
+Te2/2                          up             up       <*>FED_TIG-D01_TenGigE0/0/0/11_COLT_QFC/JEV/LE-204891_10G
+Gi5/1                          up             up       <*> P1|1G|-->VDF-B2 Gig5/2
+Gi5/2                          up             up       <*> P1|1G|-->VDF-B2 Gig5/1
+Gi8/1                          up             up       <*> FED_VDF-J1_Fast0/0_T_100M 
+Gi8/2                          up             up       <*> PIX_RIX_ASTER_281_10M 
+Gi8/4                          up             up       <*> PIX_MGT_VDF-SONDE-3_100M
+Gi8/5                          up             up       <*> PIX_MGT_VDF-SONDE-4_100M
+Gi8/9                          up             up       <*> PIX_RDS_PFH_283_100M
+Gi8/22                         up             up       <*> PIX_SGCIB_PreProd_RVP_ITEC _S8P22_1096_100M
+Gi8/23                         up             up       <*> PIX_SGCIB_DMZ_PreProd_RVP_ITEC _S8P23_1095_100M
+Gi8/25                         up             up       <*> GW_Cisco_VDF
+Gi8/26                         up             up       <> FED_PFT-LAN-01_S1-P46
+Gi8/27                         up             up       <> FED_PFT-LAN-01_S2-P46
+Gi8/29                         up             up       <*> POC_OPENSTACK_DCITS TB1_VDF_J_AGENOR1_NEW
+Gi8/48                         up             up       <*> PIX_RDS_VDF-SLA-RDS_100M 
+Po1                            up             up       <*> P1|2G|-->VDF-B2 Port-channel1
+Po6                            up             up       <> FED_PFT-LAN-01_P6-2G
+Po10                           up             up       <*> P1|10G|-->VDF-B2 Port-channel10
